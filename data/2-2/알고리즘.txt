@@ -1,6 +1,6 @@
 This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.
 
-Programming, Discrete Mathematics, Linear Algebra, Data Structures
+Programming(프로그래밍), Discrete Mathematics(이산수학), Linear Algebra(선형대수학), Data Structures(자료구조조)
 
 - Learn several fundamental principles and concepts of algorithm design.- Learn several basic primitives in algorithm and data structure design.- Understand the basics of algorithm analysis and complexity.- Practice implementing(programming) and testing the algorithms in software.
 

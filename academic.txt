@@ -1,0 +1,224 @@
+과목명: 기초프로그래밍
+과목설명: 인공지능 프로그래밍을 위해 현재 가장 많이 사용하는 프로그래밍 언어는 Python이라는 언어입니다. 이 강의는 인공지능을 배우는 학생들이 기초적인 Python 프로그래밍 역량을 습득하고, 이를 바탕으로 원하는 프로그램을 작성할 수 있도록 합니다.강의는 기초적인 파이썬 프로그램의 작성부터 시작합니다. 변수와 데이터라는 것은 어떤 것인지, list가 무엇이고 dictionary가 무엇인지 배웁니다. 간단한 제어구조로서 if, while loop에 대해서 배우고, 이들을 활용하는 함수와 클래스 개념을 배웁니다. 파일과 코드 테스트 과정을 거쳐 PyPI를 활용해 다른 사람의 코드를 활용하는 방법에 대해서도 배웁니다.
+선수과목 및 공통필수과목: 없음
+학습목표: 1. 파이썬 내부의 자료형이 무엇이 있는지 이해합니다.2. 파이썬 내부의 기본적인 제어구조를 이해합니다.3. 파이썬 내부의 기본적인 함수, 클래스 선언 방법을 이해합니다.4. 코드 테스트 과정을 통해 코드의 안정성을 높이는 방법을 이해합니다.5. 실전 적용을 통해 프로그래밍 역량을 높입니다.
+학습성과: 1. 파이썬 자료형과 제어구조에 대한 이해2. 파이썬 내부의 함수와 클래스에 대한 이해3. 코드 테스트와 git 사용의 필요성에 대한 이해4. 원하는 AI 프로그램을 작성하기 위한 프로그래밍 능력
+수강학년/학기: 1-1
+
+과목명: 미적분학
+과목설명: In this course, we will study integral and differential calculus.First, we will study single variable differentiation and its applications.Second, we will study single variable integration and its applications.Further, we will also study series and Taylor series expansion.Finally, we will study multivariable differential calculus including gradient, partial derivative and etc.This is a Davinci learning lecture.
+선수과목 및 공통필수과목: 없음
+학습목표: + We will study theoretical understanding of differential and integral.+ We will study how to formulate mathematical problems from the real problems.
+학습성과: + Students cultivate basic knowledge of calculus as a foundation of mathematics.+ Students can analyze and solve various calculus problems.
+수강학년/학기: 1-1
+
+과목명: 선형대수학
+과목설명: You will all remember solving two simultaneous equations for two unknowns in high school. Linear algebra is the elegant structure that arises when you generalize this to many equations in many unknowns. We will find such algebra problems (involving numbers and matrices) can be beautifully described by geometry (involving planes and angles).Linear algebra is a branch of mathematics that studies systems of linear equations and the properties of matrices. The concepts of linear algebra are extremely useful in artificial intelligence and computer engineering.In this course will cover many linear algebra topics including, but not limited to, systems of linear equations, matrices, determinants, Cramer’s rule, vectors, vector spaces, basis and dimension, linear transformations, eigenvalues, eigenvectors, and quadratic forms.
+선수과목 및 공통필수과목: 없음
+학습목표: This course is designed to cultivate problem-solving techniques using linear algebra. More specifically, students will learn the theory and practice of solving and understanding any linear system you could come across, including learning some methods of rigorous proof.
+학습성과: Students will learn the following themes through the course:- Solving systems with linear equations,- Handling matrices and vectors,- Concepts of linear independence, spanning, spaces, and rank,- Eigen decompositions and their applications
+수강학년/학기: 1-1
+
+과목명: 인공지능개론
+과목설명: * 인공지능의 하위 분야 및 응용 프로그램에 대하여 소개합니다. 지능형 시스템, 검색 및 최적화, 빅데이터, 데이터 마이닝, 기계 학습 알고리즘, 인공 신경망, 컴퓨터 비전, 자연어 처리, 게임 플레이 에이전트 및 자동화된 기계 학습의 입문 자료를 다룹니다. * 첫번째 강의는 강의 내용을 소개하는 오리엔테이션으로 구성됩니다. 본 강의는 한국어 강의입니다.* 본 강의는 참여도 10점, 중간고사 30점, 기말고사 30점, 과제 30점(모든 과제 점수 합산 후 30점으로 변환)으로 운영됩니다. 중간고사 또는 기말고사 점수 중 하나가 0점으로 처리된 경우, F 처리됩니다.* 본 강의는 중앙대학교 eClass 시스템을 활용하여 진행되나 eClass 시스템의 질의응답 게시판 또는 메시지 기능은 활용하지 않습니다. 질의 응답을 희망할 경우, 반드시 이메일로 연락 바랍니다.* 강의 내용 중에서 궁금한 점이 있는 경우 이메일(curseor@cau.ac.kr)로 언제든지 연락주세요.
+선수과목 및 공통필수과목: 없음
+학습목표: 이 강의는 학생들이 지능형 시스템, 검색 및 최적화, 빅데이터, 데이터 마이닝, 기계학습 알고리즘, 인공신경망, 컴퓨터비전, 자연어처리, 강화학습, 기계학습 자동화와 같은 주제를 이해하고 배울 수 있도록 합니다.
+학습성과: 지능형 시스템, 검색 및 최적화, 빅데이터, 데이터마이닝, 기계학습 알고리즘, 인공신경망, 컴퓨터비전, 자연어처리, 강화학습 및 기계학습 자동화의 기초
+수강학년/학기: 1-1
+
+과목명: 이산수학
+과목설명: 날로 발전하는 과학기술과 공학적 응용의 핵심은 수학일 것이다. 우리는 수학을 통하여 해결하고자 하는 복잡한 문제들을 추상화(abstraction)하며, 논리적으로 엄밀하게 판단하고, 정확한 방법으로 모델링(modeling)할 수 있다. 특히, 이산수학은 컴퓨터 관련 학문이나 공학을 전공하는 학생들에게 기초적인 이해의 폭을 넓혀주고, 실제 문제에서 어떻게 응용되는지를 직관적으로 이해하게 하는 등 매우 유용한 학문적 기반을 마련해 준다
+선수과목 및 공통필수과목: 없음
+학습목표: 이산수학(Discrete mathematics, 離散數學)은 연속의 개념을 사용하지 않고 이산적인 수학 구조에 대해 연구하는 학문인데, 주로 집합, 정수, 관계, 그래프, 형식 언어와 같은 개념을 다루는 학문 분야이다. 즉, 이산적인 대상물들을 분석하여 응용의 기반으로 삼는 분야이다. 이산수학의 개념은 이산이라는 개념과 수학이라는 개념이 결합된 개념이다.따라서, 이산수학에서는 논리, 명제, 집합과 디지털적인 수의 세계, 증명법, 관계, 함수, 그래프, 트리, 순열, 이산적 확률, 재귀법, 행렬과 행렬식, 부울대수, 오토마타, 형식언어 등을 다루는데, 이런 논제들을 공학적으로 응용하는 분야로 볼 수 있다. 이에 대해 좀 더 구체적으로 공부해 보는 것을 목표로 한다.
+학습성과: 수학이라는 도구를 적극 활용해 AI 기술이 접목된 4차 산업혁명을 주도적으로 이끌어갈 인재로 성장해 나갈 수 있길 바랍니다.
+수강학년/학기: 1-2
+
+과목명: 인공지능설계
+과목설명: This course offers an introduction to fundamental software design skills essential for conducting artificial intelligence projects. You will learn various open-source softwares including Linux, Github, and popular libraries for data processing/visualization. We also briefly cover basics of machine learning in this class. This course is recommended for freshmen and is not recommended for senior students majoring in artificial intelligence/computer science/software.This course will be conducted in flipped learning. Students should prepare for the video lecture before class in advance. Offline classes focus on brief summary of the class, programming practice and question and answering.Important Notice !!** This course (AI design 01) is exclusively for undergraduate students in the Department of Artificial Intelligence. **** If you are a student in another department, including the Department of Software, you must enroll in class 02 (AI design 02)." **** If you are not a student of Department of AI and enroll to this class, you will get F. ****This course is primarily designed for first-year students. Students who are majoring in software/computer science/AI and are in their second year or above are strictly prohibited from enrolling in this course. If such students do enroll, they will receive an F grade.**
+선수과목 및 공통필수과목: 기초프로그래밍
+학습목표: This course aims to develop the artificial design capability of students. We focus on two parts, 1) Usage of Open Source Software, 2) Machine Learning Project Design. We learn how to build a basic code in the linux system. Also, we learn basic design techniques for machine learning project including data processing and data visualization.Important Notice !!** This course (AI design 01) is exclusively for undergraduate students in the Department of Artificial Intelligence. **** If you are a student in another department, including the Department of Software, you must enroll in class 02 (AI design 02)." **** If you are not a student of Department of AI and enroll to this class, you will get F. ****This course is primarily designed for first-year students. Students who are majoring in software/computer science/AI and are in their second year or above are strictly prohibited from enrolling in this course. If such students do enroll, they will receive an F grade.**
+학습성과: The major objective of the course is to develop the artificial design capability of students. Students will be able to design program and artificial intelligence related projects.Important Notice !!** This course (AI design 01) is exclusively for undergraduate students in the Department of Artificial Intelligence. **** If you are a student in another department, including the Department of Software, you must enroll in class 02 (AI design 02)." ****This course is primarily designed for first-year students. Students who are majoring in software/computer science/AI and are in their second year or above are strictly prohibited from enrolling in this course. If such students do enroll, they will receive an F grade.**** If you are not a student of Department of AI and enroll to this class, you will get F. (move to 02) **
+수강학년/학기: 1-2
+
+과목명: 프로그래밍
+과목설명: This course is designed to introduce programming in C to students with no prior programming experience. Starting with the basic concepts of C, the curriculum will gradually cover more advanced topics, including arrays, pointers, and file I/O. Throughout the course, students will work on a hands-on project to reinforce their learning and gain practical programming experience.
+선수과목 및 공통필수과목: 없음
+학습목표: This course aims to:1. Introduce the basics of C programming to beginners with no prior experience in programming.2. Provide students with a comprehensive understanding of C language concepts.3. Develop problem-solving skills through hands-on projects.
+학습성과: By the end of this course, students will have a solid understanding of C programming basics and will be able to write C code for various tasks. Furthermore, they will gain the confidence to explore more complex programming topics.
+수강학년/학기: 1-2
+
+과목명: 객체지향프로그래밍
+과목설명: In this course, we will understand and learn how to develop programs to solve various problems in the computer field using Java, an object-oriented programming language.To this end, the main concepts of object-oriented language such as an object, inheritance, polymorphism, and the grammar of Java are studied.Through this, various problems can be solved using an object-oriented language.
+선수과목 및 공통필수과목: 없음
+학습목표: - Understand programming development methods for solving various problems using Java, an object-oriented programming language, and use them to solve the problems.
+학습성과: - Understand the programming development environment and be able to use development tools.- Java code to solve a given problem can be written using an object-oriented language.
+수강학년/학기: 2-1
+
+과목명: 인공지능수학
+과목설명: This course introduces essential mathematical concepts for understanding the theory of artificial intelligence and machine learning.  Topics covered include fundamental areas of mathematics such as linear algebra (e.g., vector and matrix operations, matrix decompositions), calculus, probability and distributions, and continuous optimization. Additionally, the course will explore foundational machine learning algorithms, including linear regression, principal component analysis, and logistic regression.  본 강의에서는 인공지능과 기계학습 이론을 이해하는 데 필수적인 기본 수학 개념을 다룹니다.  선형대수(벡터 및 행렬 연산, 행렬 분해 등), 미적분, 확률과 분포, 그리고 연속 최적화와 같은 핵심 수학 개념을 학습합니다. 또한, 이를 바탕으로 선형 회귀(linear regression), 주성분 분석(principal component analysis), 로지스틱 회귀(logistic regression) 등의 기본적인 기계학습 알고리즘을 다룰 예정입니다.
+선수과목 및 공통필수과목: linear algebra(선형대수학), probabilities and distributions, python language(기초프로그래밍)
+학습목표: This course is designed to develop problem-solving skills grounded in both the theory and practice of artificial intelligence and machine learning.  본 강의는 문제 해결 능력을 함양하고, 인공지능과 기계학습을 위한 수학적 기초를 다지는 것을 목표로 합니다.
+학습성과: Students will explore the following key topics throughout the course:  - Mathematical foundations, including linear algebra, calculus, probability and distributions, and continuous optimization.  - Fundamental machine learning algorithms, such as linear regression, principal component analysis (PCA), and logistic regression.  Additionally, students will have opportunities to enhance their Python programming skills through assignments that involve implementing the concepts covered in the course.  본 강의를 통해 학생들은 다음과 같은 주요 개념을 학습하게 됩니다:  - 기계학습의 기초가 되는 선형대수, 미적분, 확률과 분포, 그리고 연속 최적화.  - 선형 회귀, 주성분 분석(PCA), 로지스틱 회귀 등 기본적인 기계학습 알고리즘.  또한, 프로그래밍 과제를 통해 본 강의에서 다룬 개념을 구현하며 Python 프로그래밍 기술을 향상시킬 수 있습니다.
+수강학년/학기: 2-1
+
+과목명: 자료구조
+과목설명: This course introduces the concepts and applications of various data structures along with related algorithms.
+선수과목 및 공통필수과목: 없음
+학습목표: - Understanding the pros and cons of various data structures- Employing the proper data structure for specific algorithms- Computing computational complexity and memory storage- Realizing the data structure algorithm through Python
+학습성과: At the end of this course, the students will be able to do the following:1) They can compare the data structures,2) They can realize the data structures with Python,3) Given an algorithm, they can select the data structure for efficient computation and memory usage.
+수강학년/학기: 2-1
+
+과목명: 확률및통계
+과목설명: This course introduces various probability and statistics theories that form the foundation of artificial intelligence theory from the basics.
+선수과목 및 공통필수과목: Calculus(미적분학), Linear Algebra(선형대수학)
+학습목표: This course aims to provide students with fundamental knowledge of probability and statistics necessary for studying modern artificial intelligence theory.
+학습성과: Students can build a foundation in probability and statistics necessary for understanding advanced theories in various fields of AI.
+수강학년/학기: 2-1
+
+과목명: 데이터베이스설계
+과목설명: This course provides an understanding of database systems, focusing on fundamental concepts, relational models, Structured Query Language (SQL), and database design. Students will learn how to design, implement, and manage relational databases effectively.
+선수과목 및 공통필수과목: 없음
+학습목표: We will use Python's SQLite and MySQL during class, so you should be familiar with Python.   [This course will be conducted using Da Vinci Learning(다빈치러닝) this semester.]The goal of this course is to introduce the core principles of database systems and develop proficiency in SQL for database querying and manipulation. Additionally, the course aims to learn advanced database design techniques using the E-R model and relational design principles.
+학습성과: Upon completion of the course, students will understand the foundational concepts of database systems and be able to write and optimize SQL queries to retrieve and manipulate data. They will also learn to design robust and efficient relational databases using both theoretical and practical approaches.
+수강학년/학기: 2-2
+
+과목명: 멀티고어컴퓨팅
+과목설명: Nowadays, most PCs, Smartphones, and Smart pads are equipped with multi-core processors (CPUs). - In this course, we will learn parallel processing techniques to utilize this multi-core hardware to enhance the performance of our program.- This course will be a DaVinci Learning course, thus students will watch the lecture video before class and will have quiz and pair programming sessions during class.- In-class activities will be announced in the orientation lecture.
+선수과목 및 공통필수과목: Basic Programming (기초프로그래밍), Programming (프로그래밍밍)
+학습목표: + Understand concepts of multi-core programming+ Understand principles of parallel programming+ Practice parallel programming with various individual projects
+학습성과: + Understand the programming development environment and be able to use development tools.+ Able to utilize multi-core programming libraries
+수강학년/학기: 2-2
+
+과목명: 모바일프로그래밍
+과목설명: In this course, students will learn basic programming skills for mobile devices where AI can be applied. Considering recent trends in mobile programming technology, this course primarily focuses on hands-on experience with cross-platform programming with 'Flutter.' Flutter is a cross-platfrom programming tool developed by Google, which allows developers to create apps that run on Android, iPhone, Windows, Linux, and other devices using a single codebase. It is widely adopted in the industry today. Students will also learn Google's Dart language to use flutter, in the early part of the semester. While Dart is not complex, considering the practical nature of this course, it is not recommended for students who have not completed any basic programming courses, such as Python or Java.이 강의는 인공지능의 잠재적인 활용처인 모바일 기기의 기초적인 프로그래밍 실력을 함양하기 위한 프로그래밍 수업입니다. 최근의 모바일 프로그래밍 기술의 동향을 고려하여, '플러터(Flutter)'를 활용한 크로스플랫폼 프로그래밍 방법에 대해서 주로 실습합니다. '플러터'는 구글에서 개발한 크로스플랫폼 프로그래밍 도구로서, 안드로이드/아이폰/윈도우 및 기타 다른 기기에서 동작하는 앱을 하나의 코드로 구현할 수 있어 최근 현업에서 많이 사용하고 있습니다. 플러터를 사용하기 위해서, 여러분은 구글에서 개발한 '다트(Dart)'언어를 학기 초반에 학습하게 됩니다. 다트 언어 자체는 복잡하지 않지만, 실습을 중심으로 진행되는 강의 특성을 고려하여, 기초 프로그래밍 교과목(Python 또는 Java)을 하나도 이수하지 않은 경우에는 수강을 권장하지 않습니다.
+선수과목 및 공통필수과목: Basic Programming course(기초 프로그래밍), Object-oriented programming(객체지향 프로그래밍)
+학습목표: 1. Hands-on experience of cross-platform programming with Flutter.플러터(Flutter)를 활용한 크로스플랫폼 프로그래밍 경험을 제공하고, 반복된 연습을 통해 익숙하게 합니다.2. Understanding the difference between Flutter programming and Kotlin-based Android programming.플러터를 활용한 크로스플랫폼 프로그래밍과 일반 안드로이드 프로그래밍의 차이를 이해합니다.
+학습성과: 1. Through the final project, students can gain knowledge and experience in the overall process of planning, designing, and developing their desired app.학생 여러분은 원하는 앱을 기획, 디자인 및 개발하는 과정 전반에 대한 지식과 경험을 기말 프로젝트를 통해 얻을 수 있습니다.2. Students can gain cross-platform programming experience using Flutter, which is widely used in the industry recently.최근 현업에서 많이 사용하는 플러터를 활용한 크로스 플랫폼 프로그래밍 경험을 얻을 수 있습니다.3. Through experience with a new language and new framework, you can gain development experience that will prepare you for various changes you may encounter in the future.새로운 언어와 새로운 프레임워크에 대한 경험을 통해, 이후 마주하게 되는 다양한 변화에 대비할 수 있는 개발경험을 얻을 수 있습니다.
+수강학년/학기: 2-2
+
+과목명: 알고리즘
+과목설명: This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.
+선수과목 및 공통필수과목: Programming(프로그래밍), Discrete Mathematics(이산수학), Linear Algebra(선형대수학), Data Structures(자료구조조)
+학습목표: - Learn several fundamental principles and concepts of algorithm design.- Learn several basic primitives in algorithm and data structure design.- Understand the basics of algorithm analysis and complexity.- Practice implementing(programming) and testing the algorithms in software.
+학습성과: Students will be able to - apply algorithms and data structures in software development- measure  the performance- apply techniques for designing and implementing algorithm designs
+수강학년/학기: 2-2
+
+과목명: 기계학습
+과목설명: The main objective of the class is to help students understand the mathematical foundation for machine learning and its applications in the computer vision domain. Computer Vision is one of the major fields in computer science and its potential application is increasingly extended. Students will learn mathematical techniques that will serve as foundations to understand the theoretical aspect of machine learning and students are expected to understand and implement some applications of the computer vision techniques. Note that it is required to prepare knowledge about Linear Algebra, Numerical Analysis, and Python Programming.The main objective of the class is to help students understand the mathematical foundation for machine learning and its applications in the computer vision domain. Computer Vision is one of the major fields in computer science and its potential application is increasingly extended. Students will learn mathematical techniques that will serve as foundations to understand the theoretical aspect of machine learning and students are expected to understand and implement some applications of the computer vision techniques. Note that it is required to prepare knowledge about Linear Algebra, Numerical Analysis, and Python Programming.
+선수과목 및 공통필수과목: 없음
+학습목표: - This course aims to improve students' mathematical skills that include linear algebra, numerical analysis and optimisation.- This course aims to develop students' python programming skills.- This course aims to help students understand the machine learning and computer vision fields.- This course aims for students to develop these implementation skills for machine learning and computer vision techniques.- This course aims to help students develop skills related to the open source development framework
+학습성과: - Python programming- Linear algebra- Numerical Analysis- Machine Learning- Image Processing- Computer Vision- collaborative software development tools such as git- machine learning libraries developed in the open source platform
+수강학년/학기: 3-1
+
+과목명: 데이터처리와분석
+과목설명: -Learn how to use Python for data analysis  (advance level) -Learn how to use following libraries:   Pandas   Numpy  Scikit-LearnPlease note that this course is an advance level course for students from Dept of AI. For all other students, you will be asked to leave if you fail the screening exam on Day1. For the screening exam, you will be asked to implement 'advanced level python coding'  - Before you plan to take this course you should be able to do including , but not limited to 1. Should know all different kinds of data structures in python (set, lisg, tuple, dictionary....) 2. Should be able to implement your own functions with advanced skills, passing functions as argument, anonymous functions 3. Have taken linear algebra, probability theory.
+선수과목 및 공통필수과목: Python Programming(기초프로그래밍), Data Structure(자료구조), Algorithms(알고리즘)
+학습목표: 1. Learn how to perform data preprocessing and data analysis.2. Learn how to use open-source libraries for data analysis.3. Learn how to conduct own research with data analysis. (will be learning Recommender Systems in depth)
+학습성과: Students will be able to conduct their own research with data analysis. Specifically, we focus on data preprocessing for machine learning, conduct ML-based research using ML-libraries and modify existing classes, handle large scale datasets.
+수강학년/학기: 3-1
+
+과목명: 확률및랜덤과정
+과목설명: This course provides basic probability theory, random process, and related topics for machine learning and other applications.
+선수과목 및 공통필수과목: Calculus(미적분학), Linear Algebra(선형대수학학)
+학습목표: This course aims to understand the basic concept of probability and random process for AI researchers and engineers.
+학습성과: We will study the following concepts in the class.- Set Theory, Probability- Bayes’ Rule, Independence- Random Variable (Discrete, Multiple, Continuous)- Central Limit Theorem- Gaussian Random Variable- Random Vectors- Random Process- Gaussian Process- Poisson Process- Wiener Process- Markov Process
+수강학년/학기: 3-1
+
+과목명: 휴리스틱알고리즘
+과목설명: \This course will introduce several search and optimization algorithms to build an intelligent AI agent. In this course, students will learn and practice about several search algorithms. Specific topics include A* algorithm, tree-based search, constraint satisfaction algorithm, and/or Markov decision process.이 강의에서는 지능형 AI 에이전트를 구축하기 위한 몇 가지 탐색 및 최적화 알고리즘을 소개합니다. 학생여러분은 여러 검색 알고리즘에 대해서 배우고 연습하게 됩니다. 예를 들어, A* 알고리즘, 트리 기반 탐색, 제약 조건 만족 알고리즘, 마르코프 의사 결정 프로세스 등을 배우게 됩니다.
+선수과목 및 공통필수과목: Basic Programming (기초프로그래밍), Algorithm(알고리즘), AI Mathematics(인공지능수학)
+학습목표: 1. Students will be able to tell fundamental concepts behind various search algorithms.각종 탐색 및 최적화 알고리즘의 기초와 아이디어에 대해서 이해한다.2. Students will be able to write a creative code for a search algorithm.각종 탐색 및 최적화 알고리즘을 작성하는 방법에 대해 연습한다.3. Students will be able to communicate about how to implement a specific search algorithm.각종 탐색 및 최적화 알고리즘을 구현하는 방법에 대해 소통할 수 있다.4. Students will be able to distinguish possible ethical issues when using a search algorithm.각종 탐색 및 최적화 알고리즘을 적용할 때 발생할 수 있는 윤리적 문제에 대해 구별할 수 있다.
+학습성과: At the end of this course, the student will be able to do the following:1. Understand how a search algorithm works탐색 및 최적화 알고리즘이 돌아가는 방법에 대한 이해2. Write a program using a search algorithm탐색 및 최적화 알고리즘을 작성하는 방법에 대한 이해와 실행 능력3. Discuss about the difference between search algorithms여러 탐색 및 최적화 알고리즘 사이의 차이에 대한 이해
+수강학년/학기: 3-1
+
+과목명: 빅데이터
+과목설명: 본 과목에서는 데이터 과학의 기초부터 시작하여 고급 데이터 분석 기술에 이르기까지 다양한 내용을 다룸. 대규모로 저장된 데이터 안에서 체계적이고 자동적으로 통계적 규칙이나 패턴을 찾아내는 방법들에 대해 학습하는 교과목임. 연관분석, 이상상태감지, 그래프 마이닝, 데이터 스트림 마이닝 등의 주요 알고리즘과 이론 등에 대해 학습해 봄.
+선수과목 및 공통필수과목: 없음
+학습목표: 본 교과목은 대량의 데이터를 수집, 저장, 처리, 분석하는 방법을 배우는 것을 목표로 함.
+학습성과: 4차 산업혁명을 선도해 갈 인재로써 성장해 가길 희망합니다.
+수강학년/학기: 3-2
+
+과목명: 이미지처리
+과목설명: In this course, our goal is to learn the fundamental elements of image processing. Among the various subfields of image processing and computer vision, this class will focus on the basics of Autoencoder structures and image generation. Rather than delving deeply into complex mathematical equations, we will introduce key ideas, architectural concepts, and workflows.
+선수과목 및 공통필수과목: 패턴인식, 확률및및통계, 선형대수학, 인공지능개론
+학습목표: In the early semester, our course will initially concentrate on explaining Convolutional modules to help students understand the underlying structures. In the mid to later semester, the focus will shift towards deep learning architectures, covering essential concepts and structures in the context of image processing and generation.
+학습성과: We aim to learn basic knowledge of Image processing.We aim to learn basic knowledge of Image generation.
+수강학년/학기: 3-2
+
+과목명: 인공신경망
+과목설명: *** [IMPORTANT] Please be noted the followings before you register this class **************- This class will be running in the form of 100% online via Zoom and public online lecture materials- This class will be running in a flipped class format (students should study at home with online lectures before the class and discussions among students will be made during the classes)- It is not recommended for those who cannot speak Korean to take this class because the discussion among students and the Q&A session will be made in Korean (please do not take this class if your native language is not Korean)- Python programming skill is required to take this class- This class will use the online lecture materials developed by Stanford CS231n course titled by convolutional neural networks for visual recognition********************************************************************************************This class is designed to deal with the followings:- mathematical background related to the machine learning- python programming skills to develop machine learning algorithms- machine learning techniques related to the visual recognition tasks- development of applications related to the visual recognition tasks in the deep neural network framework
+선수과목 및 공통필수과목: machine learning(기계학습습)
+학습목표: The objective of this class is to develop:- mathematical skills in the analysis of machine learning problems- programming skills in the development of applications for the visual recognition tasks- machine learning techniques in the application of visual recognition tasks
+학습성과: This class is designed to cultivate the following capability of students:- problem solving - programming skills- teamwork - presentation skills- development skills for the machine learning applications
+수강학년/학기: 3-2
+
+과목명: 임베디드ai
+과목설명: 본 강의에서는 딥러닝의 기초 및 임베디드 시스템에서의 딥러닝 응용방안에 배운다. 저장 용량 및 연산량이 제한된 임베디드 시스템에 딥러닝 모델을 탑재하기 위해서는 모델을 최적화할 필요성이 있다. 본 강의에서는 딥러닝에 관한 기초 개념을 학습한 뒤, 모델 경량화, 모델 학습 최적화 방안, 연산량 감소 기법 등 효율적으로 딥러닝 모델을 다루는 방법에 대해 배운다. 이러한 지식들을 토대로, 컴퓨터 비전, 자연어처리, 음성합성, 강화학습 등 다양한 분야의 실전적 딥러닝 문제를 NVIDIA사의 젯슨 나노에 딥러닝 모델을 탑재해 해결해봄으로써 임베디드 시스템에 AI를 탑재하는 방법을 배운다.
+선수과목 및 공통필수과목: 기계학습, 기초프로그래밍밍
+학습목표: - 딥러닝에 대한 주요 개념을 배우고, 이를 임베디드 시스템에서 활용하는 방법을 배운다.- 젯슨 나노를 통해 다양한 딥러닝 프로젝트 수행능력을 기른다.- 모델 경량화 등 다양한 딥러닝 모델 최적화 방안에 대해 배운다.
+학습성과: 딥러닝을 NVIDIA사의 Jetson Nano 시스템을 활용해 실습해보면서, 실제로 딥러닝 모델을 임베디드 시스템에 탑재하려면 어떤 부분을 고려해야하는지 체험해봄으로써, 학생들은 실전에 맞는 딥러닝 프로젝트 수행 능력을 기르게 된다.
+수강학년/학기: 3-2
+
+과목명: 패턴인식
+과목설명: 본 강의는 다양한 패턴 인식 기법과 그 이론적/수학적 배경을 소개합니다.
+선수과목 및 공통필수과목: 없음
+학습목표: 본 강의의 목표는 패턴 인식 기법과 이론적 배경을 이해하고, 실제 문제에 적용하는 능력을 기르는 것입니다.
+학습성과: 학생들은 패턴 인식의 기본 원리부터 고급 기법까지 폭넓은 지식을 습득하고, 실제 문제에 이를 적용할 수 있는 능력을 갖추게 됩니다.
+수강학년/학기: 3-2
+
+과목명: 로보틱스
+과목설명: This course introduces the fundamental knowledge of robotics, such as kinematics, inverse kinematics, motion planning, control theory, and more. Additionally, it explores practical approaches to controlling real robots based on the acquired knowledge. The goal is to manipulate objects using a robotic arm.* This course will not cover dynamics such as equations of motion.* The main objective of this course is to learn software skills for controlling a hardware system. So, students will simultaneously study both hardware and software, and the course will involve a challenging journey with coding assignments, projects, and exams.
+선수과목 및 공통필수과목: Linear Algebra(선형대수학), Algorithm(알고리즘), Data Structure(자료구조), Python(기초프로그래밍)
+학습목표: 1. Kinematics2. Inverse Kinematics,3. Planning Algorithms4. PID control5. Robotic Grasping
+학습성과: Students can understand the basic principles of how robots operate and acquire the ability to control them.
+수강학년/학기: 4-1
+
+과목명: 인공지능프로젝트1
+과목설명: 본 강의는 인공지능을 활용한 프로젝트를 진행합니다.
+선수과목 및 공통필수과목: 없음
+학습목표: 인공지능을 활용하여 개발/연구 프로젝트를 개별/팀별로 직접 진행해보는 것을 목표로 한다.
+학습성과: - 인공지능 개발 능력 - 인공지능 연구 능력- 팀 프로젝트 능력
+수강학년/학기: 4-1
+
+과목명: 자연어처리
+과목설명: This lecture covers from basics to recent applications of Natural Language Processing. Study topics includes traditional Language models, modern language models, and emergent applications to various fields of NLP models.
+선수과목 및 공통필수과목: 인공신경망 (Artificial Neural networks)
+학습목표: + Understand various language models and its history
+학습성과: + Use NLP models in various fields+ Can program NLP models using PyTorch
+수강학년/학기: 4-1
+
+과목명: 컴퓨터비전
+과목설명: * 인공지능의 컴퓨터비전 분야에 대해 강의합니다. 컴퓨터비전 개론, OpenCV, 영상처리, 비전 에이전트 등을 통해 영상처리 파트를 간단히 살펴본 이후 딥러닝 비전으로 넘어가서 컨볼루션 신경망, 객체 인식, 객체 추적, 비전 트랜스포머 등을 포함한 고급 내용들을 간단히 살펴봅니다.
+선수과목 및 공통필수과목: 없음
+학습목표: 이 강의는 수강생들이 컴퓨터비전 개론, OpenCV, 영상처리, 비전 에이전트, 컨볼루션 신경망, 객체 인식, 객체 추적, 비전 트랜스포머와 같은 주제를 이해하고 배울 수 있도록 합니다.
+학습성과: 컴퓨터비전 개론, OpenCV, 영상처리, 비전 에이전트, 컨볼루션 신경망, 객체 인식, 객체 추적, 비전 트랜스포머
+수강학년/학기: 4-1
+
+과목명: 멀티모달학습개론
+과목설명: 멀티모달 학습 개론 강의는 다양한 정보를 통합하여 학습하는 멀티모달 학습의 다양한 기초적인 방법 및 최신 응용들을 다룬다. 멀티모달 학습 개론 강의는 다빈치 러닝 강의로 진행이 된다.
+선수과목 및 공통필수과목: 인공신경망 (Artificial Neural networks)
+학습목표: + 멀티모달 학습에 대해 이해한다.+ 멀티모달 학습의 최신 방법론을 이해한다.+ 멀티모달 학습의 최신 논문들을 읽고, 개선 방법을 도출한다.
+학습성과: + 멀티모달 학습을 활용할 수 있다.
+수강학년/학기: 4-2
+
+과목명: 인공지능시스템
+과목설명: In this course, our goal is to learn about the challenges involved in developing, deploying, and managing AI models in real-world settings. To achieve this, we will first cover the basics of training and data. Following this, we will explore systematic approaches to maintaining and managing models in situations where data and information are continuously updated. This course will primarily focus on providing an overview of the overall process and the related theoretical concepts.
+선수과목 및 공통필수과목: 인공지능개론
+학습목표: - Gain an understanding of the considerations necessary for the commercial deployment of AI models.- Learn about various theoretical learning techniques.
+학습성과: Understand the components necessary for the commercial application of models, beyond just academic research, during the model design and training process.
+수강학년/학기: 4-2
+
+과목명: 인공지능음성처리
+과목설명: 이 강의는 인공지능을 활용한 음성/오디오 처리 기술, 특히 음성 합성 기술에 관한 기초부터 최신 기술까지를 학습합니다. 학생 여러분은 이 강의에서 음성을 합성하기 위해 필요한 기초적인 음성학 지식, 음성 합성의 기초, 간단한 음성 인식 등에 대해서 학습하고, 최신 음성/오디오 합성 기술에 관한 논문 리뷰를 진행합니다.
+선수과목 및 공통필수과목: 없음
+학습목표: 1. 음성합성에 필요한 기초 지식에 관한 이해2. 음성합성에 사용되는 기초적인 알고리즘에 대한 이해3. 최신 음성합성 기술에 대한 이해
+학습성과: 1. 음성합성에 필요한 기초 지식2. 음성합성에 사용되는 기초적인 알고리즘 지식3. 최신 음성합성 기술의 동향에 대한 지식
+수강학년/학기: 4-2
+
+과목명: 인공지능정보보안
+과목설명: 본 과목에서는 정보보안 문제를 인공지능 기술과 융합해 고찰해 보고 이에 다뤄지는 전문 지식을 학습해 보기로 한다.다양한 정보보안 문제를 인공지능 기술과 연계하여 학습해 보고 각종 이슈 및 해결해야 할 문제들에 대한 개선 방안에 대해서도 공부해 본다.
+선수과목 및 공통필수과목: 없음
+학습목표: 1. 기계학습 등 포함한 인공지능과 다양한 정보보안 기술에 대해 학습2. 다양한 정보보안 문제 인식 및 인공지능 기술을 통한 접근 방법에 대해 학습3. 정보보안 문제에 대한 인공지능 기반 접근 방식 개선 및 성능 비교
+학습성과: 1. 정보보안 도메인에서의 특수성을 이해하고 문제 해결을 위해 인공지능 기술을 통한 접근 방식을 이해할 수 있습니다.2. 문제 해결 방법의 효과성을 성능 척도를 통하여 보여주고 논리적으로 분석 할 수 있습니다.
+수강학년/학기: 4-2
+
