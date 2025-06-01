@@ -1,0 +1,5 @@
+This course is designed to introduce programming in C to students with no prior programming experience. Starting with the basic concepts of C, the curriculum will gradually cover more advanced topics, including arrays, pointers, and file I/O. Throughout the course, students will work on a hands-on project to reinforce their learning and gain practical programming experience.
+
+This course aims to:1. Introduce the basics of C programming to beginners with no prior experience in programming.2. Provide students with a comprehensive understanding of C language concepts.3. Develop problem-solving skills through hands-on projects.
+
+By the end of this course, students will have a solid understanding of C programming basics and will be able to write C code for various tasks. Furthermore, they will gain the confidence to explore more complex programming topics.

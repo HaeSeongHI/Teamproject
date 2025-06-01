@@ -1,0 +1,5 @@
+This course provides an understanding of database systems, focusing on fundamental concepts, relational models, Structured Query Language (SQL), and database design. Students will learn how to design, implement, and manage relational databases effectively.
+
+We will use Python's SQLite and MySQL during class, so you should be familiar with Python.   [This course will be conducted using Da Vinci Learning(다빈치러닝) this semester.]The goal of this course is to introduce the core principles of database systems and develop proficiency in SQL for database querying and manipulation. Additionally, the course aims to learn advanced database design techniques using the E-R model and relational design principles.
+
+Upon completion of the course, students will understand the foundational concepts of database systems and be able to write and optimize SQL queries to retrieve and manipulate data. They will also learn to design robust and efficient relational databases using both theoretical and practical approaches.

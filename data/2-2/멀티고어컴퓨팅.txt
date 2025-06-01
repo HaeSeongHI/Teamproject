@@ -1,0 +1,7 @@
+Nowadays, most PCs, Smartphones, and Smart pads are equipped with multi-core processors (CPUs). - In this course, we will learn parallel processing techniques to utilize this multi-core hardware to enhance the performance of our program.- This course will be a DaVinci Learning course, thus students will watch the lecture video before class and will have quiz and pair programming sessions during class.- In-class activities will be announced in the orientation lecture.
+
+Basic Programming (Python), Programming (C/C++)
+
++ Understand concepts of multi-core programming+ Understand principles of parallel programming+ Practice parallel programming with various individual projects
+
++ Understand the programming development environment and be able to use development tools.+ Able to utilize multi-core programming libraries
