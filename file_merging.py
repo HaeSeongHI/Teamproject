@@ -14,11 +14,11 @@ def read_file_with_encoding(filepath):
     return lines
 
 def extract_semester_from_path(filepath):
-    # 예: 경로가 data/1-1/인공지능개론.txt이면 '1-1' 추출
+    # 경로 중에 '1-1', '2-2'처럼 생긴 폴더 이름을 찾아냄
     match = re.search(r'(\d{1,2}-\d{1,2})', filepath)
     if match:
         return match.group(1)
-    return "미상"  # 찾지 못했을 경우
+    return "미상"
 
 def parse_course_file(filepath):
     lines = read_file_with_encoding(filepath)
@@ -35,7 +35,8 @@ def parse_course_file(filepath):
 
     semester = extract_semester_from_path(filepath)
 
-    return f"""과목: {subject_name}
+    return f"""과목명: {subject_name}
+과목설명: {course_desc}
 선수과목 및 공통필수과목: {prereq}
 학습목표: {learning_goal}
 학습성과: {learning_outcome}
@@ -43,23 +44,25 @@ def parse_course_file(filepath):
 
 """
 
-def merge_all_courses(folder_path, output_file):
-    files = [f for f in os.listdir(folder_path) if f.endswith('.txt')]
+def merge_all_courses(root_folder, output_file):
     merged_text = ""
     merged_count = 0
 
-    for filename in sorted(files):
-        filepath = os.path.join(folder_path, filename)
-        try:
-            merged_text += parse_course_file(filepath)
-            merged_count += 1
-        except Exception as e:
-            print(f"⚠️ 오류: {filename} - {e}")
+    for dirpath, _, filenames in os.walk(root_folder):
+        for filename in filenames:
+            if filename.endswith('.txt'):
+                filepath = os.path.join(dirpath, filename)
+                try:
+                    merged_text += parse_course_file(filepath)
+                    merged_count += 1
+                except Exception as e:
+                    print(f"⚠️ 오류: {filename} - {e}")
 
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(merged_text)
-    print(f"✅ {merged_count}개 파일 병합 완료: {output_file}")
+
+    print(f"✅ 총 {merged_count}개 파일 병합 완료: {output_file}")
 
 
 # 사용 예시
-merge_all_courses("data/1-2", "전체과목정리.txt")
+merge_all_courses("data", "academic.txt")
