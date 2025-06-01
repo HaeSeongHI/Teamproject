@@ -1,7 +1,7 @@
 from openai import OpenAI
 from pathlib import Path
 
-text_ac = Path('total_subject.txt')
+text_ac = Path('academic.txt')
 text_ac_cont = text_ac.read_text(encoding='utf-8')
 
 client = OpenAI(
@@ -9,19 +9,15 @@ client = OpenAI(
   api_key="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",
 )
 
-messages = [{'role':'system', 'content': 'You are a kind advisor'}]
+messages = [{'role':'system', 'content': 'You are an helpful, reasonable advisor'}]
 
 while True:
-  msg = input('진로에 대해 고민이신가요? 저희가 해결하겠습니다. ')
+  msg = input('Are you curious about your future? I will tell you what to do ')
   messages.append({'role':'user', 'content':msg})
   completion = client.chat.completions.create(
 
-    model="meta-llama/llama-3.3-8b-instruct:free",
+    model="meta-llama/llama-3.3-70b-instruct:free",
     messages = messages
   )
   print(completion.choices[0].message.content)
   messages.append(completion.choices[0].message)
-
-  if msg.lower() == 'quit':
-    print('이용해주셔서 감사합니다.')
-    break
