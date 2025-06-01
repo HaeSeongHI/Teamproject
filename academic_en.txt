@@ -1,0 +1,225 @@
+﻿
+Course title: Fundamentals of Programming
+Course Description: The most popular programming language currently used for AI programming is the language Python. This course aims to help students learning AI acquire basic Python programming skills so that they can write programs of their choice.The course starts with writing a basic Python program. You'll learn what variables and data are, what a list is, and what a dictionary is. You'll learn about if and while loops as simple control structures, and the concepts of functions and classes that utilize them. You'll also learn how to utilize other people's code using PyPI by testing your files and code.
+Prerequisites and co-requisites: None
+Learning objectives: 1. Understand what data types are inside Python; 2. Understand the basic control structure inside Python; 3. Understand how to declare basic functions and classes inside Python; 4. Understand how to increase the stability of code through the code testing process; 5. Improve programming skills through practical application.
+Learning Outcomes: 1. an understanding of Python data types and control structures; 2. an understanding of functions and classes inside Python; 3. an understanding of the need to test code and use git; 4. programming skills to write AI programs of your choice.
+Year/Semester: 1-1
+
+Coure title: Calculus
+Course description: In this course, we will study integral and differential calculus.First, we will study single variable differentiation and its applications.Second, we will study single variable integration and its applications.Further, we will also study series and Taylor series expansion.Finally, we will study multivariable differential calculus including gradient, partial derivative and etc.This is a Davinci learning lecture.
+Prerequisites and co-requisites: None
+Learning objectives: + We will study theoretical understanding of differential and integral.+ We will study how to formulate mathematical problems from the real problems.
+Learning Outcomes: + Students cultivate basic knowledge of calculus as a foundation of mathematics.+ Students can analyze and solve various calculus problems.
+Year/Semester: 1-1
+
+Course title: Linear Algebra
+Course description: You will all remember solving two simultaneous equations for two unknowns in high school. Linear algebra is the elegant structure that arises when you generalize this to many equations in many unknowns. We will find such algebra problems (involving numbers and matrices) can be beautifully described by geometry (involving planes and angles).Linear algebra is a branch of mathematics that studies systems of linear equations and the properties of matrices. The concepts of linear algebra are extremely useful in artificial intelligence and computer engineering.In this course will cover many linear algebra topics including, but not limited to, systems of linear equations, matrices, determinants, Cramer's rule, vectors, vector spaces, basis and dimension, linear transformations, eigenvalues, eigenvectors, and quadratic forms.
+Prerequisites and co-requisites: None
+Learning objectives: This course is designed to cultivate problem-solving techniques using linear algebra. More specifically, students will learn the theory and practice of solving and understanding any linear system you could come across, including learning some methods of rigorous proof.
+Learning Outcomes: Students will learn the following themes through the course:- Solving systems with linear equations,- Handling matrices and vectors,- Concepts of linear independence, spanning, spaces, and rank,- Eigen decompositions and their applications
+Year/Semester: 1-1
+
+Course title: Introduction to Artificial Intelligence
+Course description: * Introduces the subfields and applications of artificial intelligence. Covers introductory material in intelligent systems, search and optimization, big data, data mining, machine learning algorithms, artificial neural networks, computer vision, natural language processing, game-playing agents, and automated machine learning. * The first lecture consists of an orientation that introduces the course content. This course is taught in Korean * This course is worth 10 points for participation, 30 points for the midterm, 30 points for the final, and 30 points for assignments (all assignment points are summed and converted to 30 points). If either the midterm or final exam is scored as 0, you will receive a grade of F.* This course will be taught using the Chung-Ang University eClass system, but will not utilize the question and answer board or message function of the eClass system. If you wish to ask a question, please be sure to contact me via email.* If you have any questions about the course content, please feel free to contact me via email at curseor@cau.ac.kr.
+Prerequisites and co-requisites: None
+Learning objective: This course is designed to help students understand and learn about topics such as intelligent systems, search and optimization, big data, data mining, machine learning algorithms, artificial neural networks, computer vision, natural language processing, reinforcement learning, and machine learning automation.
+Learning Outcomes: Fundamentals of intelligent systems, search and optimization, big data, data mining, machine learning algorithms, artificial neural networks, computer vision, natural language processing, reinforcement learning, and machine learning automation.
+Year/Semester: 1-1
+
+Coure title: Discrete Mathematics
+Course description: Mathematics is at the heart of many of the most advanced applications of science and engineering. Through mathematics, we can abstract the complex problems we want to solve, make logical and rigorous judgments, and model them in a precise way. In particular, discrete mathematics provides a very useful academic foundation for students majoring in computer science or engineering, as it gives them a fundamental understanding and an intuitive grasp of how it is applied to real-world problems.
+Prerequisites and co-requisites: None
+Learning objective: Discrete mathematics (離散數學) is the study of mathematical structures that are discrete without using the concept of continuity. It mainly deals with concepts such as sets, integers, relations, graphs, and formal languages. In other words, it is a field that analyzes discrete objects and uses them as a basis for applications. The concept of discrete mathematics combines the idea of discretization with the idea of mathematics, so it deals with logic, propositions, the world of sets and digital numbers, proofs, relations, functions, graphs, trees, permutations, discrete probability, recursion, matrices and determinants, Boolean algebra, automata, formal languages, etc. We aim to study these topics in more detail.
+Learning outcomes: We hope that you will be able to utilize the tools of mathematics to grow into a person who will lead the 4th industrial revolution with AI technology.
+Year/Semester: 1-2
+
+Course title: Artificial Intelligence Design
+Course description: This course offers an introduction to fundamental software design skills essential for conducting artificial intelligence projects. You will learn various open-source softwares including Linux, Github, and popular libraries for data processing/visualization. We also briefly cover basics of machine learning in this class. This course is recommended for freshmen and is not recommended for senior students majoring in artificial intelligence/computer science/software.This course will be conducted in flipped learning. Students should prepare for the video lecture before class in advance. Offline classes focus on brief summary of the class, programming practice and question and answering.Important Notice !!!** This course (AI design 01) is exclusively for undergraduate students in the Department of Artificial Intelligence. **** If you are a student in another department, including the Department of Software, you must enroll in class 02 (AI design 02)." **** If you are not a student of Department of AI and enroll to this class, you will get F. ****This course is primarily designed for first-year students. Students who are majoring in software/computer science/AI and are in their second year or above are strictly prohibited from enrolling in this course. If such students do enroll, they will receive an F grade.**
+Prerequisites and co-requisites: Fundamental Programming
+Learning objectives: This course aims to develop the artificial design capability of students. We focus on two parts, 1) Usage of Open Source Software, 2) Machine Learning Project Design. We learn how to build a basic code in the linux system. Also, we learn basic design techniques for machine learning project including data processing and data visualization.Important Notice !!!** This course (AI design 01) is exclusively for undergraduate students in the Department of Artificial Intelligence. **** If you are a student in another department, including the Department of Software, you must enroll in class 02 (AI design 02)." **** If you are not a student of Department of AI and enroll to this class, you will get F. ****This course is primarily designed for first-year students. Students who are majoring in software/computer science/AI and are in their second year or above are strictly prohibited from enrolling in this course. If such students do enroll, they will receive an F grade.**
+Learning Outcomes: The major objective of the course is to develop the artificial design capability of students. Students will be able to design program and artificial intelligence related projects.Important Notice !!!** This course (AI design 01) is exclusively for undergraduate students in the Department of Artificial Intelligence. **** If you are a student in another department, including the Department of Software, you must enroll in class 02 (AI design 02)." ****This course is primarily designed for first-year students. Students who are majoring in software/computer science/AI and are in their second year or above are strictly prohibited from enrolling in this course. If such students do enroll, they will receive an F grade.**** If you are not a student of Department of AI and enroll to this class, you will get F. (move to 02) **
+Year/Semester: 1-2
+
+Coure title: Programming
+Course description: This course is designed to introduce programming in C to students with no prior programming experience. Starting with the basic concepts of C, the curriculum will gradually cover more advanced topics, including arrays, pointers, and file I/O. Throughout the course, students will work on a hands-on project to reinforce their learning and gain practical programming experience.
+Prerequisites and co-requisites: None
+Learning Objectives: This course aims to:1. Introduce the basics of C programming to beginners with no prior experience in programming.2. Provide students with a comprehensive understanding of C language concepts.3. Develop problem-solving skills through hands-on projects.
+Learning Outcomes: By the end of this course, students will have a solid understanding of C programming basics and will be able to write C code for various tasks. Furthermore, they will gain the confidence to explore more complex programming topics.
+Year/Semester: 1-2
+
+Course title: Object-Oriented Programming
+Course Description: In this course, we will understand and learn how to develop programs to solve various problems in the computer field using Java, an object-oriented programming language.To this end, the main concepts of object-oriented language such as an object, inheritance, polymorphism, and the grammar of Java are studied.Through this, various problems can be solved using an object-oriented language.
+Prerequisites and co-requisites: None
+Learning objective: - Understand programming development methods for solving various problems using Java, an object-oriented programming language, and use them to solve the problems.
+Learning Outcomes: - Understand the programming development environment and be able to use development tools.- Java code to solve a given problem can be written using an object-oriented language.
+Course year/semester: 2-1
+
+Course title: Artificial Intelligence Mathematics
+Description: This course introduces essential mathematical concepts for understanding the theory of artificial intelligence and machine learning.  Topics covered include fundamental areas of mathematics such as linear algebra (e.g., vector and matrix operations, matrix decompositions), calculus, probability and distributions, and continuous optimization. Additionally, the course will explore foundational machine learning algorithms, including linear regression, principal component analysis, and logistic regression.  This course covers basic math concepts that are essential to understanding artificial intelligence and machine learning theory.  You will learn core mathematical concepts such as linear algebra (vector and matrix operations, matrix factorization, etc.), calculus, probability and distributions, and continuous optimization. In addition, the course will explore foundational machine learning algorithms, including linear regression , principal component analysis, and logistic regression.
+Prerequisites and co-requisites: linear algebra, probabilities and distributions, python language (introductory programming)
+Learning objectives: This course is designed to develop problem-solving skills grounded in both the theory and practice of artificial intelligence and machine learning. This course aims to develop problem-solving skills and lay the mathematical foundation for artificial intelligence and machine learning.
+Learning Outcomes: Students will explore the following key topics throughout the course:  - Mathematical foundations, including linear algebra, calculus, probability and distributions, and continuous optimization.  - Fundamental machine learning algorithms, such as linear regression, principal component analysis (PCA), and logistic regression.  Additionally, students will have opportunities to enhance their Python programming skills through assignments that involve implementing the concepts covered in the course. Through this course, students will learn the following key concepts  - Linear algebra, calculus, probability and distributions, and continuous optimization, which are the foundations of machine learning.  - Basic machine learning algorithms, including linear regression, principal component analysis (PCA), and logistic regression.  You'll also work through programming assignments to implement concepts covered in the course and improve your Python programming skills.
+Course year/semester: 2-1
+
+Course title: Data Structure
+Description: This course introduces the concepts and applications of various data structures along with related algorithms.
+Prerequisites and co-requisites: None
+Learning Objectives: - Understanding the pros and cons of various data structures- Employing the proper data structure for specific algorithms- Computing computational complexity and memory storage- Realizing the data structure algorithm through Python.
+Learning Outcomes: At the end of this course, the students will be able to do the following:1) They can compare the data structures,2) They can realize the data structures with Python,3) Given an algorithm, they can select the data structure for efficient computation and memory usage.
+Course year/semester: 2-1
+
+Course title: Probability and Statistics
+Course description: This course introduces various probability and statistics theories that form the foundation of artificial intelligence theory from the basics.
+Prerequisites and co-requisites: Calculus, Linear Algebra
+Learning objectives: This course aims to provide students with fundamental knowledge of probability and statistics necessary for studying modern artificial intelligence theory.
+Learning Outcomes: Students can build a foundation in probability and statistics necessary for understanding advanced theories in various fields of AI.
+Course year/semester: 2-1
+
+Course title: Database Design
+Description: This course provides an understanding of database systems, focusing on fundamental concepts, relational models, Structured Query Language (SQL), and database design. Students will learn how to design, implement, and manage relational databases effectively.
+Prerequisites and co-requisites: None
+Learning Objectives: We will use Python's SQLite and MySQL during class, so you should be familiar with Python.   [This course will be conducted using Da Vinci Learning this semester.]The goal of this course is to introduce the core principles of database systems and develop proficiency in SQL for database querying and manipulation. Additionally, the course aims to learn advanced database design techniques using the E-R model and relational design principles.
+Learning Outcomes: Upon completion of the course, students will understand the foundational concepts of database systems and be able to write and optimize SQL queries to retrieve and manipulate data. They will also learn to design robust and efficient relational databases using both theoretical and practical approaches.
+Course year/semester: 2-2
+
+Course title: Multigore Computing
+Course description: Nowadays, most PCs, Smartphones, and Smart pads are equipped with multi-core processors (CPUs). - In this course, we will learn parallel processing techniques to utilize this multi-core hardware to enhance the performance of our program.- This course will be a DaVinci Learning course, thus students will watch the lecture video before class and will have quiz and pair programming sessions during class.- In-class activities will be announced in the orientation lecture.
+Prerequisites and co-requisites: Basic Programming, Programming
+Learning objectives: + Understand concepts of multi-core programming+ Understand principles of parallel programming+ Practice parallel programming with various individual projects
+Learning Outcomes: + Understand the programming development environment and be able to use development tools.+ Able to utilize multi-core programming libraries.
+Course year/semester: 2-2
+
+Course title: Mobile Programming
+Description: In this course, students will learn basic programming skills for mobile devices where AI can be applied. Considering recent trends in mobile programming technology, this course primarily focuses on hands-on experience with cross-platform programming with 'Flutter.' Flutter is a cross-platform programming tool developed by Google, which allows developers to create apps that run on Android, iPhone, Windows, Linux, and other devices using a single codebase. It is widely adopted in the industry today. Students will also learn Google's Dart language to use flutter, in the early part of the semester. While Dart is not complex, considering the practical nature of this course, it is not recommended for students who have not completed any basic programming courses, such as Python or Java.This course is a programming class to develop basic programming skills for mobile devices, a potential application of artificial intelligence. Considering the recent trend of mobile programming technology, we will mainly practice cross-platform programming using Flutter. Flutter is a cross-platform programming tool developed by Google, which is used in the field because it allows you to implement apps that work on Android/iPhone/Windows and other devices with one code. To use Flutter, you will learn the Dart language, also developed by Google, at the beginning of the semester. The Dart language itself is not complicated, but due to the hands-on nature of the course, we do not recommend taking it if you have not completed any of the foundational programming courses (Python or Java).
+Prerequisites and co-requisites: Basic Programming course, Object-oriented programming
+Learning objectives: 1. Hands-on experience of cross-platform programming with Flutter. 2. Understanding the difference between Flutter programming and Kotlin-based Android programming. 3. Understanding the difference between cross-platform programming with Flutter and regular Android programming. 4.
+Learning Outcomes: 1. Through the final project, students can gain knowledge and experience in the overall process of planning, designing, and developing their desired app.Students can gain knowledge and experience in the overall process of planning, designing, and developing their desired app through the final project .2. Students can gain cross-platform programming experience using Flutter, which is widely used in the industry recently.Students can gain cross-platform programming experience using Flutter, which is widely used in the industry recently.3.Through experience with a new language and new framework, you can gain development experience that will prepare you for various changes you may encounter in the future.Through experience with a new language and new framework, you can gain development experience that will prepare you for various changes you may encounter in the future.
+Course year/semester: 2-2
+
+Coure title: Algorithms
+Course description: This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.
+Prerequisites and Co-requisites: Programming, Discrete Mathematics, Linear Algebra, Data Structures
+Learning Objectives: - Learn several fundamental principles and concepts of algorithm design.- Learn several basic primitives in algorithm and data structure design.- Understand the basics of algorithm analysis and complexity.- Practice implementing(programming) and testing the algorithms in software.
+Learning Outcomes: Students will be able to - apply algorithms and data structures in software development- measure the performance- apply techniques for designing and implementing algorithm designs.
+Course year/semester: 2-2
+
+Course title: Machine Learning
+Course description: The main objective of the class is to help students understand the mathematical foundation for machine learning and its applications in the computer vision domain. Computer Vision is one of the major fields in computer science and its potential application is increasingly extended. Students will learn mathematical techniques that will serve as foundations to understand the theoretical aspect of machine learning and students are expected to understand and implement some applications of the computer vision techniques. Note that it is required to prepare knowledge about Linear Algebra, Numerical Analysis, and Python Programming.The main objective of the class is to help students understand the mathematical foundation for machine learning and its applications in the computer vision domain. Computer Vision is one of the major fields in computer science and its potential application is increasingly extended. Students will learn mathematical techniques that will serve as foundations to understand the theoretical aspect of machine learning and students are expected to understand and implement some applications of the computer vision techniques. Note that it is required to prepare knowledge about Linear Algebra, Numerical Analysis, and Python Programming.
+Prerequisites and co-requisites: None
+Learning Objectives: - This course aims to improve students' mathematical skills that include linear algebra, numerical analysis and optimisation.- This course aims to develop students' python programming skills.- This course aims to help students understand the machine learning and computer vision fields.- This course aims for students to develop these implementation skills for machine learning and computer vision techniques.- This course aims to help students develop skills related to the open source development framework.
+Learning outcomes: - Python programming- Linear algebra- Numerical Analysis- Machine Learning- Image Processing- Computer Vision- collaborative software development tools such as git- machine learning libraries developed in the open source platform.
+Year/Semester: 3-1
+
+Course title: Data Processing and Analytics
+Course description: -Learn how to use Python for data analysis (advance level) -Learn how to use following libraries:   Pandas Numpy Scikit-LearnPlease note that this course is an advance level course for students from Dept of AI. For all other students, you will be asked to leave if you fail the screening exam on Day1. For the screening exam, you will be asked to implement 'advanced level python coding' - Before you plan to take this course you should be able to do including , but not limited to 1. Should know all different kinds of data structures in python (set, lisg, tuple, dictionary....) 2. Should be able to implement your own functions with advanced skills, passing functions as argument, anonymous functions 3. Have taken linear algebra, probability theory.
+Prerequisites and co-requisites: Python Programming, Data Structures, Algorithms
+Learning Objectives: 1. Learn how to perform data preprocessing and data analysis.2. Learn how to use open-source libraries for data analysis.3. Learn how to conduct own research with data analysis. (will be learning Recommender Systems in depth)
+Learning Outcomes: Students will be able to conduct their own research with data analysis. Specifically, we focus on data preprocessing for machine learning, conduct ML-based research using ML-libraries and modify existing classes, handle large scale datasets.
+Year/Semester: 3-1
+
+Course title: Probability and Randomness
+Course description: This course provides basic probability theory, random process, and related topics for machine learning and other applications.
+Prerequisite and co-requisite: Calculus, Linear Algebra
+Learning objective: This course aims to understand the basic concept of probability and random process for AI researchers and engineers.
+Learning Outcomes: We will study the following concepts in the class.- Set Theory, Probability- Bayes' Rule, Independence- Random Variable (Discrete, Multiple, Continuous)- Central Limit Theorem- Gaussian Random Variable- Random Vectors- Random Process- Gaussian Process- Poisson Process- Wiener Process- Markov Process- Markov Process
+Year/Semester: 3-1
+
+Course title: Heuristic Algorithms
+Course Description: \This course will introduce several search and optimization algorithms to build an intelligent AI agent. In this course, students will learn and practice about several search algorithms. Specific topics include A* algorithm, tree-based search, constraint satisfaction algorithm, and/or Markov decision process.This course will introduce several search and optimization algorithms to build an intelligent AI agent. Students will learn about and practice several search algorithms. For example, you will learn about the A* algorithm, tree-based search, constraint satisfaction algorithm, Markov decision process, and more.
+Prerequisites and Co-requisites: Basic Programming, Algorithm, AI Mathematics
+Learning Objectives: 1. Students will be able to tell fundamental concepts behind various search algorithms. 2. Students will be able to practice writing creative code for a search algorithm. 3. Students will be able to communicate about how to implement a specific search algorithm. 4. Students will be able to distinguish possible ethical issues when using a search algorithm. 5.Students will be able to communicate about how to implement a specific search algorithm.4. Students will be able to distinguish possible ethical issues when using a search algorithm.
+Learning Outcomes: At the end of this course, the student will be able to:1. Understand how a search algorithm worksAn understanding of how a search and optimization algorithm works2. Write a program using a search algorithmAn understanding of how to write and be able to execute a search and optimization algorithm3. Discuss the difference between search algorithmsAn understanding of the difference between different search and optimization algorithms.
+Year/Semester: 3-1
+
+Course title: Big Data
+Course description: This course covers the fundamentals of data science and moves on to more advanced data analysis techniques. You will learn how to systematically and automatically find statistical rules and patterns in large amounts of stored data. You will learn about key algorithms and theories such as correlation analysis, anomaly detection, graph mining, data stream mining, and more.
+Prerequisites and co-requisites: None
+Learning objective: This course aims to teach you how to collect, store, process, and analyze large amounts of data.
+Learning Outcomes: I hope to grow as a human resource who will lead the 4th industrial revolution.
+Year/Semester: 3-2
+
+Course title: Image Processing
+Course description: In this course, our goal is to learn the fundamental elements of image processing. Among the various subfields of image processing and computer vision, this class will focus on the basics of Autoencoder structures and image generation. Rather than delving deeply into complex mathematical equations, we will introduce key ideas, architectural concepts, and workflows.
+Prerequisites and co-requisites: Pattern Recognition, Probability and Statistics, Linear Algebra, Introduction to Artificial Intelligence
+Learning Objectives: In the early semester, our course will initially concentrate on explaining Convolutional modules to help students understand the underlying structures. In the mid to later semester, the focus will shift towards deep learning architectures, covering essential concepts and structures in the context of image processing and generation.
+Learning Outcomes: We aim to learn basic knowledge of Image processing.We aim to learn basic knowledge of Image generation.
+Year/Semester: 3-2
+
+Course title: Artificial Neural Networks
+Course Description: *** [IMPORTANT] Please be noted the following before you register this class **************- This class will be running in the form of 100% online via Zoom and public online lecture materials- This class will be running in a flipped class format (students should study at home with online lectures before the class and discussions among students will be made during the classes)- It is not recommended for those who cannot speak Korean to take this class because the discussion among students and the Q&.A session will be made in Korean (please do not take this class if your native language is not Korean)- Python programming skill is required to take this class- This class will use the online lecture materials developed by Stanford CS231n course titled by convolutional neural networks for visual recognition********************************************************************************************This class is designed to deal with the following: - This class is designed to provide an introduction to the mathematical background related to the machine learning of convolutional neural networks:- mathematical background related to the machine learning- python programming skills to develop machine learning algorithms- machine learning techniques related to the visual recognition tasks- development of applications related to the visual recognition tasks in the deep neural network framework.
+Prerequisite and co-requisite: machine learning
+Learning objectives: The objective of this class is to develop:- mathematical skills in the analysis of machine learning problems- programming skills in the development of applications for the visual recognition tasks- machine learning techniques in the application of visual recognition tasks
+Learning Outcomes: This class is designed to cultivate the following capability of students:- problem solving - programming skills- teamwork - presentation skills- development skills for the machine learning applications.
+Year/Semester: 3-2
+
+Course title: Embedded AI
+Course description: In this course, you will learn the basics of deep learning and its applications in embedded systems. In order to embed deep learning models in embedded systems with limited storage and computation, it is necessary to optimize the models. In this course, you will learn the basic concepts of deep learning, and then learn how to efficiently handle deep learning models, including model lightweighting, model training optimization, and computation reduction techniques. Based on this knowledge, you will learn how to embed AI in embedded systems by solving practical deep learning problems in various fields such as computer vision, natural language processing, speech synthesis, and reinforcement learning by embedding deep learning models on NVIDIA's Jetson Nano.
+Prerequisites and co-requisites: Machine Learning, Introductory Programming
+Learning Objectives: - Learn the key concepts of deep learning and how it can be used in embedded systems; - Develop the ability to perform various deep learning projects with Jetson Nano; - Learn various deep learning model optimization methods, including model lightweighting.
+Learning Outcomes: By practicing deep learning with NVIDIA's Jetson Nano system, students will develop the ability to perform real-world deep learning projects by experiencing what it takes to actually embed a deep learning model into an embedded system.
+Year/Semester: 3-2
+
+Course title: Pattern Recognition
+Course description: This course introduces various pattern recognition techniques and their theoretical and mathematical background.
+Prerequisites and co-requisites: None
+Learning Goal: The goal of this lesson is for you to understand pattern recognition techniques and their theoretical background, and to develop the ability to apply them to real-world problems.
+Learning Outcomes: Students will gain a broad knowledge of pattern recognition, from basic principles to advanced techniques, and be able to apply them to real-world problems.
+Year/Semester: 3-2
+
+Course title: Robotics
+Description: This course introduces the fundamental knowledge of robotics, such as kinematics, inverse kinematics, motion planning, control theory, and more. Additionally, it explores practical approaches to controlling real robots based on the acquired knowledge. The goal is to manipulate objects using a robotic arm.* This course will not cover dynamics such as equations of motion.* The main objective of this course is to learn software skills for controlling a hardware system. So, students will simultaneously study both hardware and software, and the course will involve a challenging journey with coding assignments, projects, and exams.
+Prerequisites and co-requisites: Linear Algebra, Algorithm, Data Structures, Python, Introductory Programming
+Learning objectives: 1. Kinematics2. Inverse Kinematics,3. Planning Algorithms4. PID control5. Robotic Grasping
+Learning Outcomes: Students can understand the basic principles of how robots operate and acquire the ability to control them.
+Year/Semester: 4-1
+
+Course title: AI Project 1
+Course description: In this course, you will work on a project utilizing artificial intelligence.
+Prerequisites and co-requisites: None
+Learning objective: Students will be able to work individually and in teams on development/research projects utilizing AI.
+Learning Outcome: - Ability to develop artificial intelligence - Ability to research artificial intelligence - Ability to work on team projects
+Year/Semester: 4-1
+
+Course title: Natural Language Processing
+Course description: This lecture covers from basics to recent applications of Natural Language Processing. Study topics includes traditional Language models, modern language models, and emergent applications to various fields of NLP models.
+Prerequisites and co-requisites: Artificial Neural networks
+Learning objectives: + Understand various language models and its history
+Learners will be able to: + Use NLP models in various fields+ Can program NLP models using PyTorch
+Year/Semester: 4-1
+
+Course title: Computer Vision
+Course description: * This course introduces the field of computer vision in artificial intelligence. After a brief overview of the image processing part with Introduction to Computer Vision, OpenCV, image processing, and vision agents, we move on to deep learning vision and briefly cover advanced topics including convolutional neural networks, object recognition, object tracking, vision transformers, and more.
+Prerequisites and co-requisites: None
+Learning objective: This course will enable students to understand and learn the following topics: Introduction to Computer Vision, OpenCV, Image Processing, Vision Agents, Convolutional Neural Networks, Object Recognition, Object Tracking, Vision Transformers.
+Learning outcomes: Introduction to computer vision, OpenCV, image processing, vision agents, convolutional neural networks, object recognition, object tracking, vision transformers.
+Year/Semester: 4-1
+
+Course title: Introduction to Multimodal Learning
+Course description: Introduction to Multimodal Learning covers a variety of fundamental methods and modern applications of multimodal learning, a method of learning that integrates a variety of information. Introduction to Multimodal Learning is taught using Da Vinci Learning.
+Prerequisites and co-requisites: Artificial Neural networks
+Learning objectives: + Understand multimodal learning + Understand the latest methodologies in multimodal learning + Read the latest papers in multimodal learning and identify ways to improve them.
+Learning Outcomes: + Utilize multimodal learning.
+Year/Term: 4-2
+
+Coure title: Artificial Intelligence Systems
+Course description: In this course, our goal is to learn about the challenges involved in developing, deploying, and managing AI models in real-world settings. To achieve this, we will first cover the basics of training and data. Following this, we will explore systematic approaches to maintaining and managing models in situations where data and information are continuously updated. This course will primarily focus on providing an overview of the overall process and the related theoretical concepts.
+Prerequisites and Co-requisites: Introduction to Artificial Intelligence
+Learning Objectives: - Gain an understanding of the considerations necessary for the commercial deployment of AI models.- Learn about various theoretical learning techniques.
+Learning Outcomes: Understand the components necessary for the commercial application of models, beyond just academic research, during the model design and training process.
+Year/Term: 4-2
+
+Course title: AI Speech Processing
+Course description: This course is an introduction to the fundamentals and state-of-the-art of speech and audio processing techniques using artificial intelligence, specifically speech synthesis. In this course, students will learn about basic phonetics, fundamentals of speech synthesis, simple speech recognition, and review papers on the latest speech/audio synthesis techniques.
+Prerequisites and co-requisites: None
+Learning objectives: 1. Understand the fundamental knowledge required for speech synthesis, 2. Understand the fundamental algorithms used in speech synthesis, 3. Understand the latest speech synthesis technologies, 4.
+Learning Outcomes: 1. knowledge of the fundamentals of speech synthesis; 2. knowledge of the basic algorithms used in speech synthesis; 3. knowledge of the latest trends in speech synthesis technology.
+Year/Term: 4-2
+
+Course title: AI Information Security
+In this course, you will learn about information security issues in conjunction with artificial intelligence technology and learn the specialized knowledge that is covered in this field.You will learn about various information security issues in conjunction with artificial intelligence technology and study the improvement methods for various issues and problems to be solved.
+Prerequisites and co-requisites: None
+Learning objectives: 1. Learn about artificial intelligence and various information security technologies, including machine learning, 2. Recognize various information security problems and how they can be approached with artificial intelligence technologies, 3. Improve and compare performance of artificial intelligence-based approaches to information security problems
+Learning Outcomes: 1. understand the specificities in the information security domain and understand the approaches through artificial intelligence techniques for problem solving; 2. be able to show the effectiveness of problem solving methods through performance measures and analyze them logically.
+Year/Term: 4-2
+
