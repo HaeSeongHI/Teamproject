@@ -1,7 +1,7 @@
 from openai import OpenAI
 from pathlib import Path
 
-text_ac = Path('academic.txt')
+text_ac = Path('academic_en.txt')
 text_ac_cont = text_ac.read_text(encoding='utf-8')
 
 client = OpenAI(

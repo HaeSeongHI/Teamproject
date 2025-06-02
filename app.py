@@ -8,13 +8,25 @@ app = Flask(__name__)
 # API 클라이언트 설정
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"
+    api_key=""
 )
 
 
 # 과목 정보 로딩
 text_ac = Path('academic.txt')
 text_ac_cont = text_ac.read_text(encoding='utf-8')
+
+# AI에 관한 흥미?
+ans1 = input("Are you interested in Artificial Intelligence?: ")
+
+# 공부하고 싶은 분야?
+ans2 = input("Do you have any fields that you want to focus on?: ")
+
+# 흥미있는 과목?
+ans3 = input("Do you have any subjects that you want to focus on?: ")
+
+# 생각중인 진로?
+ans4 = input("Do you have specific dreams or goals that you want to achieve via AI?: ")
 
 # 시스템 메시지 고정
 system_prompt = {
