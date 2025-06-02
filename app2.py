@@ -33,15 +33,13 @@ def index():
     user_input1 = ""
     user_input2 = ""
     user_input3 = ""
-    user_input4 = ""
     
     if request.method == "POST":
         user_input1 = request.form["question1"]
         user_input2 = request.form["question2"]
         user_input3 = request.form["question3"]
-        user_input4 = request.form["question4"]
 
-        messages = [system_prompt, {'role': 'user', 'content':  + ""}]
+        messages = [system_prompt, {'role': 'user', 'content': ""}]
         
         try:
             completion = client.chat.completions.create(
@@ -54,8 +52,7 @@ def index():
 
     return render_template("index.html", answer=answer, question1 = user_input1,
                                                         question2 = user_input2,
-                                                        question3 = user_input3,
-                                                        question4 = user_input4)
+                                                        question3 = user_input3)
 
 if __name__ == "__main__":
     app.run(debug=True)
