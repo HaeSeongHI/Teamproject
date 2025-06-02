@@ -1,19 +1,23 @@
 from flask import Flask, render_template, request
 from openai import OpenAI
 from pathlib import Path
-import os
+
 
 app = Flask(__name__)
 
 # API 클라이언트 설정
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
+<<<<<<< HEAD
     api_key=""
+=======
+    api_key="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"
+>>>>>>> eb5c67009379a57b1e6a07984d9220db16a34b3d
 )
 
 
 # 과목 정보 로딩
-text_ac = Path('academic.txt')
+text_ac = Path('academic_en.txt')
 text_ac_cont = text_ac.read_text(encoding='utf-8')
 
 # AI에 관한 흥미?
