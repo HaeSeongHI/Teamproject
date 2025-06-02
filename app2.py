@@ -40,7 +40,8 @@ def index():
         user_input2 = request.form["question2"]
         user_input3 = request.form["question3"]
         user_input4 = request.form["question4"]
-        messages = [system_prompt, {'role': 'user', 'content':  + "(Recommand some subjects for me.)"}]
+
+        messages = [system_prompt, {'role': 'user', 'content':  + ""}]
         
         try:
             completion = client.chat.completions.create(
