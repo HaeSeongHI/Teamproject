@@ -1,14 +1,14 @@
 from flask import Flask, render_template, request
 from openai import OpenAI
 from pathlib import Path
-import os
+
 
 app = Flask(__name__)
 
 # API 클라이언트 설정
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"
+    api_key="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"
 )
 
 
