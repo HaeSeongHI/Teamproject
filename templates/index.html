@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>과목 추천 AI 상담</title>
+</head>
+<body>
+    <h1>AI 과목 추천 상담</h1>
+    <form method="post">
+        <label>무엇이 궁금하신가요?</label><br>
+        <textarea name="question" rows="4" cols="50">{{ question }}</textarea><br>
+        <button type="submit">추천 받기</button>
+    </form>
+    <hr>
+    <h2>AI의 추천</h2>
+    <pre>{{ answer }}</pre>
+</body>
+</html>
