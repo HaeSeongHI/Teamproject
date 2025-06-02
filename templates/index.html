@@ -3,21 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>과목 추천 AI 상담</title>
+    <style>
+        .label-row, .textarea-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .label-row label, .textarea-row textarea {
+            flex: 1;
+            margin-right: 10px;
+        }
+        .label-row label:last-child,
+        .textarea-row textarea:last-child {
+            margin-right: 0;
+        }
+        .textarea-row textarea {
+            height: 100px;
+            resize: vertical;
+        }
+    </style>
 </head>
 <body>
     <h1>AI 과목 추천 상담</h1>
     <form method="post">
-    <label></label><br>
-    <label>Do you have any fields that you want to focus on?</label><br>
-        <textarea name="question1" rows="4" cols="50">{{ question1 }}</textarea><br>
-    <label></label><br>
-    <label>Do you have any subjects that you want to focus on?:</label><br>
-        <textarea name="question2" rows="4" cols="50">{{ question2 }}</textarea><br>
-    <label></label><br>
-        <label>Do you have specific dreams or goals that you want to achieve via AI?</label><br>
-        <textarea name="question3" rows="4" cols="50">{{ question3 }}</textarea><br>
+        <div class="label-row">
+            <label for="question1">Do you have any fields you want to focus on?</label>
+            <label for="question2">Do you have any subjects you want to focus on?</label>
+            <label for="question3">Do you have specific dreams or goals via AI?</label>
+        </div>
+        <div class="textarea-row">
+            <textarea name="question1" id="question1">{{ question1 }}</textarea>
+            <textarea name="question2" id="question2">{{ question2 }}</textarea>
+            <textarea name="question3" id="question3">{{ question3 }}</textarea>
+        </div>
         <button type="submit">Go for it!</button>
     </form>
+
     <hr>
     <h2>AI의 추천</h2>
     <pre>{{ answer }}</pre>
