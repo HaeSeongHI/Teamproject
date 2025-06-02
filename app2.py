@@ -8,7 +8,7 @@ app = Flask(__name__)
 # API 클라이언트 설정
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"
+    api_key="" ### API KEY 넣어라ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ
 )
 
 
@@ -16,16 +16,7 @@ client = OpenAI(
 text_ac = Path('academic_en.txt')
 text_ac_cont = text_ac.read_text(encoding='utf-8')
 
-# 시스템 메시지 고정
-system_prompt = {
-    'role': 'system',
-    'content': 'You are a helpful, reasonable career counselor for university students. '
-            'You would recommend to students about what subjects(only from a text given) would be better for them to take '
-            'in terms of their preference and talents.'
-            'Also you can teach user what subject should be preceded,'
-            'or future career related to reccomended subject.'
-            'Respond and explain about subjects specifically based on following text.'+ text_ac_cont
-}
+
 
 @app.route("/", methods=["GET", "POST"])
 def index():
@@ -39,7 +30,22 @@ def index():
         user_input2 = request.form["question2"]
         user_input3 = request.form["question3"]
 
-        messages = [system_prompt, {'role': 'user', 'content': ""}]
+        # 시스템 메시지 고정
+        system_prompt = {
+            'role': 'system',
+            'content': 'You are a helpful, reasonable career counselor for university students. '
+                    'You would recommend to students based on their basic informaton' + user_input1 + user_input2 + user_input3
+        }
+
+        system_prompt2 = {
+            'role' : 'system', 'content': 'recommendation format would be: 1. REQUIRED course track, 2. RECOMMENDED course track, 3. Electives, 4. Additional acitivities to do, 5. Possible professions with these tracks'
+        }
+
+        system_prompt3 = {
+            'role' : 'system', 'content' : 'You are going to be given the course details. Your recommendation should be in chronological order. For example, you can recommend like introduction to artificial intelligence and then machine learning since introduction to artificial intelligence is assigned at 1-1.' + text_ac_cont
+        }
+
+        messages = [system_prompt, system_prompt2, system_prompt3]
         
         try:
             completion = client.chat.completions.create(
