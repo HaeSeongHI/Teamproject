@@ -29,23 +29,42 @@ def index():
         user_input1 = request.form["question1"]
         user_input2 = request.form["question2"]
         user_input3 = request.form["question3"]
+        user_input3 = request.form["question3"]
 
         # 시스템 메시지 고정
         system_prompt = {
             'role': 'system',
             'content': 'You are a helpful, reasonable career counselor for university students. '
-                    'You would recommend to students based on their basic informaton' + user_input1 + user_input2 + user_input3
+                    'You would recommend to students based on their basic informaton'
         }
 
         system_prompt2 = {
-            'role' : 'system', 'content': 'recommendation format would be: 1. REQUIRED course track, 2. RECOMMENDED course track, 3. Electives, 4. Additional acitivities to do, 5. Possible professions with these tracks'
+            'role' : 'system', 'content': 'recommendation format would be: \
+                1. RECOMMENDED course track(Based on the text given), \
+                2. REQUIRED course track for 1(Prerequisites and co-requisites), \
+                3. Electives, \
+                4. Additional acitivities to do, \
+                5. Possible professions with these tracks'
         }
 
         system_prompt3 = {
-            'role' : 'system', 'content' : 'You are going to be given the course details. Your recommendation should be in chronological order. For example, you can recommend like introduction to artificial intelligence and then machine learning since introduction to artificial intelligence is assigned at 1-1.' + text_ac_cont
+            'role' : 'system', 'content' : 'You are going to be given the course details. Your recommendation should be in chronological order. \
+                For example, you can recommend like introduction to artificial intelligence and then machine learning since introduction to artificial intelligence is assigned at 1-1.'
         }
 
-        messages = [system_prompt, system_prompt2, system_prompt3]
+        system_prompt4 = {
+            'role' : 'system', 'content' : text_ac_cont
+        }
+
+        user_input_all = {
+            'role' : 'system', 'content' : f'This is a match between questions and user\'s answers to those questions.\
+                Do you have any fields you want to focus on? : {user_input1}\
+                Do you have any subjects you want to focus on? : {user_input2}\
+                Do you have specific dreams or goals via AI? : {user_input3}\
+                '
+        }
+
+        messages = [system_prompt, system_prompt2, system_prompt3, system_prompt4, user_input_all]
         
         try:
             completion = client.chat.completions.create(
@@ -54,7 +73,7 @@ def index():
             )
             answer = completion.choices[0].message.content
         except Exception as e:
-            answer = f"오류 발생: {str(e)}"
+            answer = f"error: {str(e)}"
 
     return render_template("index.html", answer=answer, question1 = user_input1,
                                                         question2 = user_input2,
