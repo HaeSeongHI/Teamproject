@@ -29,7 +29,6 @@ def index():
         user_input1 = request.form["question1"]
         user_input2 = request.form["question2"]
         user_input3 = request.form["question3"]
-        user_input3 = request.form["question3"]
 
         # 시스템 메시지 고정
         system_prompt = {
