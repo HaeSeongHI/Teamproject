@@ -5,14 +5,12 @@ from pathlib import Path
 
 app = Flask(__name__)
 
-# API 클라이언트 설정
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="" ### API KEY 넣어라ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ
+    api_key="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" ### API KEY 넣어라ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ
 )
 
 
-# 과목 정보 로딩
 text_ac = Path('academic_en.txt')
 text_ac_cont = text_ac.read_text(encoding='utf-8')
 
@@ -20,50 +18,44 @@ text_ac_cont = text_ac.read_text(encoding='utf-8')
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    answer = ""
+    answer = ""             # get만 됐을때에도 render는 되기때문에 오류를 막으려면 기본값 넣어야함함
     user_input1 = ""
     user_input2 = ""
     user_input3 = ""
+    user_input4 = ""
     
-    if request.method == "POST":
+    if request.method == "POST":        # get인지 post인지
         user_input1 = request.form["question1"]
         user_input2 = request.form["question2"]
         user_input3 = request.form["question3"]
+        user_input4 = request.form["question4"]
 
-        # 시스템 메시지 고정
-        system_prompt = {
-            'role': 'system',
-            'content': 'You are a helpful, reasonable career counselor for university students. '
-                    'You would recommend to students based on their basic informaton'
-        }
+        system_prompt1 = 'You are a helpful, reasonable career counselor for university students.\
+                    You would recommend to students based on their basic informaton'
 
-        system_prompt2 = {
-            'role' : 'system', 'content': 'recommendation format would be: \
+        system_prompt2 ='recommendation format would be: \
                 1. RECOMMENDED course track(Based on the text given), \
                 2. REQUIRED course track for 1(Prerequisites and co-requisites), \
                 3. Electives, \
                 4. Additional acitivities to do, \
                 5. Possible professions with these tracks'
-        }
 
-        system_prompt3 = {
-            'role' : 'system', 'content' : 'You are going to be given the course details. Your recommendation should be in chronological order. \
+        system_prompt3 ='You are going to be given the course details. Your recommendation should be in chronological order. \
                 For example, you can recommend like introduction to artificial intelligence and then machine learning since introduction to artificial intelligence is assigned at 1-1.'
-        }
 
-        system_prompt4 = {
-            'role' : 'system', 'content' : text_ac_cont
-        }
 
-        user_input_all = {
-            'role' : 'system', 'content' : f'This is a match between questions and user\'s answers to those questions.\
+
+        user_input_all = f'This is a match between questions and user\'s answers to those questions.\
                 Do you have any fields you want to focus on? : {user_input1}\
                 Do you have any subjects you want to focus on? : {user_input2}\
                 Do you have specific dreams or goals via AI? : {user_input3}\
+                Any additional information?: {user_input4}\
                 '
-        }
 
-        messages = [system_prompt, system_prompt2, system_prompt3, system_prompt4, user_input_all]
+
+        messages = [{'role': 'system',
+            'content': (system_prompt1 +'\n\n' + system_prompt2 +'\n\n' + system_prompt3 +'\n\n' + text_ac_cont +'\n\n' + user_input_all)
+            }]
         
         try:
             completion = client.chat.completions.create(
@@ -76,7 +68,9 @@ def index():
 
     return render_template("index.html", answer=answer, question1 = user_input1,
                                                         question2 = user_input2,
-                                                        question3 = user_input3)
+                                                        question3 = user_input3,
+                                                        question4 = user_input4
+                                                        )
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -29,9 +29,9 @@
         이 사이트는 AI학과의 학생 중 자신이 어떤 분야에 관심이 있을 때 어떤 과목 트랙을 따라가야하는지 궁금해하는 학생들을 위해 제작되었습니다.
         Llama 3.3 llm 기반의 답변 서비스를 제공하며 각 response box내에는 영어로 작성하여 주시면 더욱 정확한 결과를 얻을 수 있을 것입니다. (ex. I want to focus on CNN)
     </p>
-    <form method="post">
+    <form method="post"><!--post라는 폼(구글폼같은)을 만들어-->
         <div class="label-row">
-            <label for="question1">Do you have any fields you want to focus on?</label>
+            <label for="question1">Do you have any fields you want to focus on?</label><!--for은 엄청 큰 의미는 없고 약간 보기편함 + 라벨 눌러도 입력창에 포커스됨-->
             <label for="question2">Do you have any subjects you want to focus on?</label>
             <label for="question3">Do you have specific dreams or goals via AI?</label>
             <label for="question4">Any additional information?</label>
@@ -40,13 +40,14 @@
             <textarea name="question1" id="question1">{{ question1 }}</textarea>
             <textarea name="question2" id="question2">{{ question2 }}</textarea>
             <textarea name="question3" id="question3">{{ question3 }}</textarea>
-            <textarea name="question4" id="question3">{{ question4 }}</textarea>
+            <textarea name="question4" id="question4">{{ question4 }}</textarea>
         </div>
         <button type="submit">Go for it!</button>
     </form>
 
-    <hr>
+    <hr><!--이건 그냥 줄긋기-->
     <h2>AI의 추천</h2>
     <pre>{{ answer }}</pre>
+    <hr>
 </body>
 </html>
