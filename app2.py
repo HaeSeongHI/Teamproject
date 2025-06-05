@@ -93,11 +93,11 @@ def index():
                 
                 subject_indexed = 'Recommended subjects: '
                 for i in range(len(subjects_list)):
-                    subject_indexed += f'\n{i}. {subjects_list[i]}'
+                    subject_indexed += f'\n{i+1}. {subjects_list[i]}'
 
                 answer += '\n\n\n' + subject_indexed
 
-                
+                # session - 처음 go for it을 할 때 도출되었던 결과 저장 및 나중에 최종적으로 출력
                 session['answer'] = answer
                 session['user_input1'] = user_input1
                 session['user_input2'] = user_input2
@@ -123,6 +123,8 @@ def index():
         elif form_id == 'form2':
             # search box
             try:
+
+                # -> 여기서 session에 저장되었던 것 출력
                 answer = session.get('answer', '')
 
                 user_input1 = session.get('user_input1', '')
@@ -135,7 +137,7 @@ def index():
                 subjects_list = session.get('subjects_list', [])
                 
                 search_input = request.form["search_subject"]
-                search_result = find_subject(subjects_list[int(search_input)])
+                search_result = find_subject(subjects_list[int(search_input)-1])
             except Exception as e:
                 search_result = f"error: {str(e)}"
 
