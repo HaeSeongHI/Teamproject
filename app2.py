@@ -8,7 +8,7 @@ app.secret_key = 'your_secret_key'
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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" ### API KEY is needed.
+    api_key="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" ### API KEY is needed.
 )
 
 
@@ -97,8 +97,15 @@ def index():
 
                 answer += '\n\n\n' + subject_indexed
 
+                
+                session['answer'] = answer
+                session['user_input1'] = user_input1
+                session['user_input2'] = user_input2
+                session['user_input3'] = user_input3
+                session['user_input4'] = user_input4
+                session['search_result'] = search_result
+                session['search_input'] = search_input
                 session['subjects_list'] = subjects_list
-
 
 
             except Exception as e:
@@ -116,7 +123,17 @@ def index():
         elif form_id == 'form2':
             # search box
             try:
+                answer = session.get('answer', '')
+
+                user_input1 = session.get('user_input1', '')
+                user_input2 = session.get('user_input2', '')
+                user_input3 = session.get('user_input3', '')
+                user_input4 = session.get('user_input4', '')
+                
+                search_result = session.get('search_result', [])
+                search_input = session.get('search_input', [])
                 subjects_list = session.get('subjects_list', [])
+                
                 search_input = request.form["search_subject"]
                 search_result = find_subject(subjects_list[int(search_input)])
             except Exception as e:
