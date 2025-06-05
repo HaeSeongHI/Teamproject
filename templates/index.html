@@ -58,7 +58,7 @@
             <textarea name="question3" id="question3" placeholder = "EX. I want to categorize all objects that is shown in the camera lens">{{ question3 }}</textarea>
             <textarea name="question4" id="question4" placeholder = "EX. I really like to interact with others. OR I'm not good at python.">{{ question4 }}</textarea>
         </div>
-        <button type="submit">Go for it!</button>
+        <button type="submit" name="form_id" value="form1">Go for it!</button>
     </form>
 
     <hr><!--이건 그냥 줄긋기-->
@@ -70,9 +70,9 @@
             <label for = "search_subject">Which subject you want to search about?</label>
         </div>
         <div class = "textarea-row">
-            <textarea name = "search_subject" id="search_subject" placeholder = "EX. If you want to search '1. Introduction to Artificial Intelligence' then please type '1'"></textarea>
+            <textarea name = "search_subject" id="search_subject" placeholder = "EX. If you want to search '1. Introduction to Artificial Intelligence' then please type '1'">{{ search_input }}</textarea>
         </div>
-        <button type="submit">Search</button>
+        <button type="submit" name="form_id" value="form2">Submit Form 2</button>
     </form>
     <pre>{{ search_result }}</pre>
     
