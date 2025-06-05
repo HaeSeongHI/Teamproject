@@ -34,11 +34,10 @@ def index():
                     You would recommend to students based on their basic informaton'
 
         system_prompt2 ='recommendation format would be: \
-                1. REQUIRED course track (It should be based on the text given, and Prerequisites and co-requisites should be considered), \
-                2. RECOMMENDED course track (Prerequisites and co-requisites should be considered), \
-                3. Electives, \
-                4. Additional acitivities to do, \
-                5. Possible professions with these tracks'
+                1. RECOMMENDED course track (It should be based on the text given), \
+                2. REQUIRED course track (Prerequisites and co-requisites should be considered and please note or show that which course is the prerequisite for which course.), \
+                3. Additional acitivities to do, \
+                4. Possible professions with these tracks'
 
         system_prompt3 ='You are going to be given the course details. Your recommendation should be in chronological order. \
                 For example, you can recommend like introduction to artificial intelligence and then machine learning since introduction to artificial intelligence is assigned at 1-1.'
