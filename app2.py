@@ -93,15 +93,21 @@ def index():
             answer += '\n\n\n' + subject_indexed
 
 
-
-
         except Exception as e:
             answer = f"error: {str(e)}"
 
+        # search box
+        try:
+            search_input = request.form["search_subject"]
+            search_result = find_subject(subjects_list[search_input])
+        except Exception as e:
+            search_result = f"error: {str(e)}"
+        
     return render_template("index.html", answer=answer, question1 = user_input1,
                                                         question2 = user_input2,
                                                         question3 = user_input3,
-                                                        question4 = user_input4
+                                                        question4 = user_input4,
+                                                        search_result= search_result
                                                         )
 
 if __name__ == "__main__":
