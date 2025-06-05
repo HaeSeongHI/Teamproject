@@ -48,10 +48,10 @@
             <label for="question4">Any additional information?</label>
         </div>
         <div class="textarea-row">
-            <textarea name="question1" id="question1" placeholder = "I'm interested in the field of computer vision.">{{ question1 }}</textarea>
-            <textarea name="question2" id="question2" placeholder = "I want to study more about linear algebra.">{{ question2 }}</textarea>
-            <textarea name="question3" id="question3" placeholder = "I want to categorize all objects that is shown in the camera lens">{{ question3 }}</textarea>
-            <textarea name="question4" id="question4" placeholder = "I really like to interact with others. OR I'm not good at python.">{{ question4 }}</textarea>
+            <textarea name="question1" id="question1" placeholder = "EX. I'm interested in the field of computer vision.">{{ question1 }}</textarea>
+            <textarea name="question2" id="question2" placeholder = "EX.I want to study more about linear algebra.">{{ question2 }}</textarea>
+            <textarea name="question3" id="question3" placeholder = "EX. I want to categorize all objects that is shown in the camera lens">{{ question3 }}</textarea>
+            <textarea name="question4" id="question4" placeholder = "EX. I really like to interact with others. OR I'm not good at python.">{{ question4 }}</textarea>
         </div>
         <button type="submit">Go for it!</button>
     </form>
@@ -60,5 +60,16 @@
     <h2>AI의 추천</h2>
     <pre>{{ answer }}</pre>
     <hr>
+    <form>
+        <div class = "label-row">
+            <label for = "search_subject">Which subject you want to search about?</label>
+        </div>
+        <div class = "textarea-row">
+            <textarea name = "search_subject" id="search_subject" placeholder = "EX. Introduction to Artificial Intelligence"></textarea>
+        </div>
+        <button type="submit">Search</button>
+    </form>
+    <pre>{{ search_result }}</pre>
+    
 </body>
 </html>
