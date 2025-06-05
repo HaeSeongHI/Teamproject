@@ -35,7 +35,7 @@ def index():
 
         system_prompt2 ='recommendation format would be: \
                 1. RECOMMENDED course track (It should be based on the text given), \
-                2. REQUIRED course track (Prerequisites and co-requisites should be considered and please note or show that which course is the prerequisite for which course.), \
+                2. REQUIRED course track for 1(Prerequisites and co-requisites should be considered and please note or show that which course is the prerequisite for recommended course.), \
                 3. Additional acitivities to do, \
                 4. Possible professions with these tracks'
 
