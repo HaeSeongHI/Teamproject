@@ -22,6 +22,11 @@
             resize: vertical;
         }
 
+        #search_subject {
+            flex:none;
+            width:400px;
+            height:80px;
+        }
         pre {
             font-size: 20px; font-family: 'Consolas', 'Menlo', 'Monaco', 'monospace';
             white-space: pre-wrap;
@@ -65,7 +70,7 @@
             <label for = "search_subject">Which subject you want to search about?</label>
         </div>
         <div class = "textarea-row">
-            <textarea name = "search_subject" id="search_subject" placeholder = "EX. Introduction to Artificial Intelligence"></textarea>
+            <textarea name = "search_subject" id="search_subject" placeholder = "EX. If you want to search '1. Introduction to Artificial Intelligence' then please type '1'"></textarea>
         </div>
         <button type="submit">Search</button>
     </form>
