@@ -13,7 +13,8 @@ client = OpenAI(
 
 text_ac = Path('academic_en.txt')
 text_ac_cont = text_ac.read_text(encoding='utf-8')
-
+text_bc = Path('Best_Example.txt')
+text_bc_cont = text_bc.read_text(encoding = 'utf-8')
 
 
 @app.route("/", methods=["GET", "POST"])
@@ -42,7 +43,7 @@ def index():
         system_prompt3 ='You are going to be given the course details. Your recommendation should be in chronological order. \
                 For example, you can recommend like introduction to artificial intelligence and then machine learning since introduction to artificial intelligence is assigned at 1-1.'
         
-        system_prompt4 = 'Following statements are examples: '
+        system_prompt4 = 'Following statements are examples: ' + text_bc_cont
 
 
         user_input_all = f'This is a match between questions and user\'s answers to those questions.\
@@ -54,7 +55,7 @@ def index():
 
 
         messages = [{'role': 'system',
-            'content': (system_prompt1 +'\n\n' + system_prompt2 +'\n\n' + system_prompt3 +'\n\n' + text_ac_cont +'\n\n' + user_input_all)
+            'content': (system_prompt1 +'\n\n' + system_prompt2 +'\n\n' + system_prompt3 +'\n\n' + system_prompt4 + '\n\n' + text_ac_cont +'\n\n' + user_input_all)
             }]
         
         try:
