@@ -41,7 +41,8 @@ def index():
 
         system_prompt3 ='You are going to be given the course details. Your recommendation should be in chronological order. \
                 For example, you can recommend like introduction to artificial intelligence and then machine learning since introduction to artificial intelligence is assigned at 1-1.'
-
+        
+        system_prompt4 = 'Following statements are examples: '
 
 
         user_input_all = f'This is a match between questions and user\'s answers to those questions.\
