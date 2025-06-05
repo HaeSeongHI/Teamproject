@@ -23,7 +23,14 @@
         }
 
         pre {
-            font-size: 20px; font-family: 'Consolas', 'Menlo', 'Monaco', monospace';
+            font-size: 20px; font-family: 'Consolas', 'Menlo', 'Monaco', 'monospace';
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        input::placeholder, textarea::placeholder {
+            color: #b0b0b0;
+            opacity: 1;
         }
     </style>
 </head>
@@ -41,10 +48,10 @@
             <label for="question4">Any additional information?</label>
         </div>
         <div class="textarea-row">
-            <textarea name="question1" id="question1">{{ question1 }}</textarea>
-            <textarea name="question2" id="question2">{{ question2 }}</textarea>
-            <textarea name="question3" id="question3">{{ question3 }}</textarea>
-            <textarea name="question4" id="question4">{{ question4 }}</textarea>
+            <textarea name="question1" id="question1" placeholder = "I'm interested in the field of computer vision.">{{ question1 }}</textarea>
+            <textarea name="question2" id="question2" placeholder = "I want to study more about linear algebra.">{{ question2 }}</textarea>
+            <textarea name="question3" id="question3" placeholder = "I want to categorize all objects that is shown in the camera lens">{{ question3 }}</textarea>
+            <textarea name="question4" id="question4" placeholder = "I really like to interact with others. OR I'm not good at python.">{{ question4 }}</textarea>
         </div>
         <button type="submit">Go for it!</button>
     </form>
