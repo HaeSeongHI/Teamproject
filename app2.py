@@ -25,7 +25,7 @@ def find_subject(subject):
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    answer = ""             # get만 됐을때에도 render는 되기때문에 오류를 막으려면 기본값 넣어야함함
+    answer = ""             # get만 됐을때에도 render는 되기때문에 오류를 막으려면 기본값 넣어야함
     user_input1 = ""
     user_input2 = ""
     user_input3 = ""
