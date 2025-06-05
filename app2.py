@@ -1,13 +1,14 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, session
 from openai import OpenAI
 from pathlib import Path
 
 
 app = Flask(__name__)
+app.secret_key = 'your_secret_key'
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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" ### API KEY is needed.
+    api_key="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" ### API KEY is needed.
 )
 
 
@@ -26,7 +27,7 @@ def find_subject(subject):
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    answer = ""             # get만 됐을때에도 render는 되기때문에 오류를 막으려면 기본값 넣어야함함
+    answer = ""             # get만 됐을때에도 render는 되기때문에 오류를 막으려면 기본값 넣어야함
     user_input1 = ""
     user_input2 = ""
     user_input3 = ""
@@ -55,7 +56,6 @@ def index():
                     For example, you can recommend like introduction to artificial intelligence and then machine learning since introduction to artificial intelligence is assigned at 1-1.'
             
             system_prompt4 = 'Following statements are examples: ' + text_bc_cont
-
 
             user_input_all = f'This is a match between questions and user\'s answers to those questions.\
                     Do you have any fields you want to focus on? : {user_input1}\
@@ -97,6 +97,8 @@ def index():
 
                 answer += '\n\n\n' + subject_indexed
 
+                session['subjects_list'] = subjects_list
+
 
 
             except Exception as e:
@@ -104,22 +106,38 @@ def index():
 
             
             return render_template("index.html", answer=answer, question1 = user_input1,
-                                                    question2 = user_input2,
-                                                    question3 = user_input3,
-                                                    question4 = user_input4
-                                                    )
+                                            question2 = user_input2,
+                                            question3 = user_input3,
+                                            question4 = user_input4,
+                                            search_result= search_result,
+                                            search_input = search_input
+                                            )
 
         elif form_id == 'form2':
             # search box
             try:
+                subjects_list = session.get('subjects_list', [])
                 search_input = request.form["search_subject"]
                 search_result = find_subject(subjects_list[int(search_input)])
             except Exception as e:
                 search_result = f"error: {str(e)}"
 
-            return render_template("index.html", search_result= search_result,
-                                                search_input = search_input)    
-
+            return render_template("index.html", answer=answer, question1 = user_input1,
+                                            question2 = user_input2,
+                                            question3 = user_input3,
+                                            question4 = user_input4,
+                                            search_result= search_result,
+                                            search_input = search_input
+                                            )    
+    
+    # get일 때
+    return render_template("index.html", answer=answer, question1 = user_input1,
+                                            question2 = user_input2,
+                                            question3 = user_input3,
+                                            question4 = user_input4,
+                                            search_result= search_result,
+                                            search_input = search_input
+                                            )
 
 if __name__ == "__main__":
     app.run(debug=True)
