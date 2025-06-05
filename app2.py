@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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" ### API KEY is needed.
+    api_key="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" ### API KEY is needed.
 )
 
 
@@ -86,7 +86,12 @@ def index():
             subjects_list = subjects_list.split(',')
             subjects_list = [i.strip() for i in subjects_list]
             
-            # 
+            subject_indexed = 'Recommended subjects: '
+            for i in range(len(subjects_list)):
+                subject_indexed += f'\n{i}. {subjects_list[i]}'
+
+            answer += '\n\n\n' + subject_indexed
+
 
 
 
