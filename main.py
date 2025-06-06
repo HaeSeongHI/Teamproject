@@ -65,7 +65,7 @@ def index():
                     '
 
 
-            system_prompt5 = 'I want to recieve aa list of recommended subjects. So all you have to do is to add \
+            system_prompt5 = 'I want to recieve a list of recommended subjects on 1. So all you have to do is to add \
                 "vrfctncdfspltng subjectname1,subjectname2,subjectname3....." on the last of your answer.\
                 I am going to split your message and split by vrfctncdfspltng.\
                 '
