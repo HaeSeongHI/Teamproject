@@ -34,10 +34,14 @@ def index():
     user_input4 = ""
     search_input = ""
     search_result = ""
+    request1_result = ""
+    request2_result = ""
+    request3_result = ""
+
     form_id = request.form.get("form_id")
     if request.method == "POST":        # get인지 post인지
-        if form_id == 'form1':
-            user_input1 = request.form["question1"]
+        if form_id == 'recommend':
+            user_input1 = request.form["question1"] 
             user_input2 = request.form["question2"]
             user_input3 = request.form["question3"]
             user_input4 = request.form["question4"]
@@ -87,7 +91,7 @@ def index():
                 subjects_list = answer.split('vrfctncdfspltng')[1]
                 answer = answer.split('vrfctncdfspltng')[0]
                 
-                # 과목데이터 -> subjects_llist
+                # 과목데이터 -> subjects_list
                 subjects_list = subjects_list.split(',')
                 subjects_list = [i.strip() for i in subjects_list]
                 
@@ -120,7 +124,7 @@ def index():
                                             search_input = search_input
                                             )
 
-        elif form_id == 'form2':
+        elif form_id == 'search':
             # search box
             try:
 

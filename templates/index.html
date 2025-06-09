@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>과목 추천 AI 상담</title>
     <style>
-        .label-row, .textarea-row {
+        .label-row, .textarea-row { 
             display: flex;
             justify-content: space-between;
             margin-bottom: 10px;
@@ -37,7 +37,44 @@
             color: #b0b0b0;
             opacity: 1;
         }
+        /* 만족도 조사 테이블 */
+        .survey-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .survey-table th,
+        .survey-table td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        .survey-table th {
+            background-color: #f8f8f8;
+        }
+
+        .survey-comment-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 6px;
+        }
+        .survey-comment-textarea {
+            width: 100%;
+            margin-top: 8px;
+            height: 60px;
+            resize: vertical;
+        }
+        .survey-submit-btn {
+            margin-top: 14px;
+            padding: 10px 24px;
+            font-size: 16px;
+        }
+
+        
+
+
     </style>
+    <!--labelrow와 같은건 그냥 내가 지정한 클래스와 같은 것으로 아래에 내가 원하는 클래스에 그걸 할당함으로써 해당 style을 지닌 것을 사용할 수 있다.-->
 </head>
 <body>
     <h1>AI 과목 추천 상담 (in English)</h1>
@@ -53,12 +90,14 @@
             <label for="question4">Any additional information?</label>
         </div>
         <div class="textarea-row">
-            <textarea name="question1" id="question1" placeholder = "EX. I'm interested in the field of computer vision.">{{ question1 }}</textarea>
+            <textarea name="question1" id="question1" placeholder = "EX. I'm interested in the field of computer vision.">{{ question1 }}</textarea> 
+            <!--flow를 정확히 집자면 여기 name~이라고 쓰인 부분을 서버에 데이터 전송 시 쓰는 키 값으로 매우 중요하며, id는 그냥 html내에서 식별용을쓰이는 것으로보면되고
+            일단 여기에서 question1에 대한 html을 형성하고, request.form을 통해 -->
             <textarea name="question2" id="question2" placeholder = "EX.I want to study more about linear algebra.">{{ question2 }}</textarea>
             <textarea name="question3" id="question3" placeholder = "EX. I want to categorize all objects that is shown in the camera lens">{{ question3 }}</textarea>
             <textarea name="question4" id="question4" placeholder = "EX. I really like to interact with others. OR I'm not good at python.">{{ question4 }}</textarea>
         </div>
-        <button type="submit" name="form_id" value="form1">Go for it!</button>
+        <button type="submit" name="form_id" value="recommend">Go for it!</button>
     </form>
 
     <hr><!--이건 그냥 줄긋기-->
@@ -72,9 +111,66 @@
         <div class = "textarea-row">
             <textarea name = "search_subject" id="search_subject" placeholder = "Type a number of subjects">{{ search_input }}</textarea>
         </div>
-        <button type="submit" name="form_id" value="form2">Search</button>
+        <button type="submit" name="form_id" value="search">Search</button>
     </form>
     <pre>{{ search_result }}</pre>
-    
+
+    <!-- 만족도 조사 Section 시작 -->
+    <hr>
+    <h2>이용 만족도 조사</h2>
+    <p>더 나은 서비스를 위해 간단한 만족도 조사를 부탁드립니다.</p>
+    <form method="post">
+    <table class="survey-table">
+        <tr>
+        <th>항목</th>
+        <th>매우 만족</th>
+        <th>만족</th>
+        <th>보통</th>
+        <th>불만족</th>
+        <th>매우 불만족</th>
+        </tr>
+        <tr>
+        <td>AI 추천 결과</td>
+        <td><input type="radio" name="satisfaction_result" value="5" required></td>
+        <td><input type="radio" name="satisfaction_result" value="4"></td>
+        <td><input type="radio" name="satisfaction_result" value="3"></td>
+        <td><input type="radio" name="satisfaction_result" value="2"></td>
+        <td><input type="radio" name="satisfaction_result" value="1"></td>
+        </tr>
+        <tr>
+        <td>상담 인터페이스 사용성</td>
+        <td><input type="radio" name="satisfaction_ui" value="5" required></td>
+        <td><input type="radio" name="satisfaction_ui" value="4"></td>
+        <td><input type="radio" name="satisfaction_ui" value="3"></td>
+        <td><input type="radio" name="satisfaction_ui" value="2"></td>
+        <td><input type="radio" name="satisfaction_ui" value="1"></td>
+        </tr>
+        <tr>
+        <td>답변 속도</td>
+        <td><input type="radio" name="satisfaction_speed" value="5" required></td>
+        <td><input type="radio" name="satisfaction_speed" value="4"></td>
+        <td><input type="radio" name="satisfaction_speed" value="3"></td>
+        <td><input type="radio" name="satisfaction_speed" value="2"></td>
+        <td><input type="radio" name="satisfaction_speed" value="1"></td>
+        </tr>
+    </table>
+    <div style="margin-top:16px;">
+        <label for="satisfaction_comment" class="survey-comment-label">기타 의견 (선택):</label>
+        <textarea id="satisfaction_comment" name="satisfaction_comment" placeholder="더 좋은 AI 상담을 위해 바라는 점이 있다면 자유롭게 적어주세요." class="survey-comment-textarea"></textarea>
+    </div>
+    <button type="submit" name="form_id" value="survey" class="survey-submit-btn">의견 제출</button>
+    </form>
+    <!-- 만족도 조사 Section 끝 -->
+<!--div는 자유서술과 같은 것에 유용하며, 
+
+<table>: 표 전체
+
+<tr>: table row, 표의 한 줄
+
+<th>: table header, 표의 머릿글(보통 굵게, 중앙 정렬)
+
+<td>: table data, 실제 데이터 칸을 의미하기에 checkbox와 같은걸 형성할 때 쓰기가 좋다.-->
+
 </body>
 </html>
+
