@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, session
 from openai import OpenAI
 from pathlib import Path
+import json
 
 
 app = Flask(__name__)
@@ -110,6 +111,9 @@ def index():
                 session['search_result'] = search_result
                 session['search_input'] = search_input
                 session['subjects_list'] = subjects_list
+                session['request1_result'] = request1_result
+                session['request2_result'] = request2_result
+                session['request3_result'] = request3_result
 
 
             except Exception as e:
@@ -151,7 +155,45 @@ def index():
                                             question4 = user_input4,
                                             search_result= search_result,
                                             search_input = search_input
-                                            )    
+                                            )
+        elif form_id == 'survey':
+            try:
+                satisfaction_data = Path('satisfaction_data.json')
+
+                # 1. 초기 구조 정의 (점수는 0부터 시작)
+                init_list = [
+                    {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0},   # result
+                    {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0},   # UI
+                    {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0}    # speed
+                ]
+
+                # 2. 파일이 없거나 비어있으면 초기화
+                if not satisfaction_data.exists() or satisfaction_data.stat().st_size == 0:
+                    with satisfaction_data.open("wt", encoding="utf-8") as f:
+                        json.dump(init_list, f)
+
+                # 3. 이후 평소대로 load해서 사용
+                with satisfaction_data.open("rt", encoding="utf-8") as f:
+                    loaded = json.load(f)
+
+
+                request1_result = request.form['satisfaction_result'] #result (참고로 str형태로 만족도 숫자가 넘어옴)
+                request2_result = request.form['satisfaction_ui'] #UI
+                request3_result = request.form['satisfaction_speed'] #speed
+                score_dict1 = loaded[0] #result
+                score_dict2 = loaded[1] #UI
+                score_dict3 = loaded[2] #speed
+                score_dict1[request1_result] +=1
+                score_dict2[request2_result] +=1
+                score_dict3[request3_result] +=1
+                user_total_satisfaction = [score_dict1, score_dict2, score_dict3]
+                with satisfaction_data.open('wt', encoding='utf-8') as sd:
+                    json.dump(user_total_satisfaction, sd)
+                
+
+            except Exception as e:
+                request1_result = f"error: {str(e)}"
+
     
     # get일 때
     return render_template("index.html", answer=answer, question1 = user_input1,
