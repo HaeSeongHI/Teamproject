@@ -9,7 +9,7 @@ app.secret_key = 'your_secret_key'
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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" ### API KEY is needed.
+    api_key="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" ### API KEY is needed.
 )
 
 
