@@ -17,7 +17,7 @@ dict2v = [x for x in loaded[1].values()]
 dict3v = [x for x in loaded[2].values()]
 
 x_data = ['Worst', 'Bad', "Usual", "Good", "Best"]
-fig,ax = plt.subplots(1,3)
+fig,ax = plt.subplots(1,3, figsize = (10,5))
 
 ax[0].bar(x_data, dict1v, alpha = 0.5, color = 'red')
 ax[1].bar(x_data, dict2v, alpha = 0.5, color = 'blue')
