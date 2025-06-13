@@ -43,3 +43,16 @@
 ### 만족도 조사(개발자)
 1. 사용자의 만족도 조사 결과는 satisfaction_data.json 에 저장됩니다
 2. satisfaction_visual.py 코드를 실행하면 만족도 조사 결과가 시각화되어 나타납니다
+## 파일별 설명
+### data 폴더
+- 중앙대 AI학과 과목 정보를 담은 각각의 텍스트파일을 학기별로 구분해 모아놓은 폴더입니다 (데이터 1차 수집)
+### file_merging.py
+- data 폴더의 각 하위폴더명(학기-학년)을 각각의 텍스트파일(과목정보 하나씩 담겨있는 파일들)에 Year/Semester: 3-1 형식으로 추가하고 모든 텍스트파일을 하나로 병합.
+- 결과적으로 모든 과목 설명이 \n 두번으로 구분되어 한 텍스트파일(academic.txt)에 저장된다.
+- AI의 도움을 조금 받아 만든 코드입니다...
+### main.py
+- aaaa
+### index.html
+- aaaa
+### satisfaction_visual.py
+- aaaa
