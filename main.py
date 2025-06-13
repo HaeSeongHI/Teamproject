@@ -9,7 +9,9 @@ app.secret_key = 'your_secret_key'
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
+
     api_key="" ### API KEY is needed.
+
 )
 
 

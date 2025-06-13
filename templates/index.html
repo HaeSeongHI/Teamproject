@@ -102,8 +102,9 @@
 
     <hr><!--이건 그냥 줄긋기-->
     <h2>AI의 추천</h2>
-    <pre>{{ answer }}</pre>
+    <pre>{{ answer or 'Go for it! 버튼을 누르면 이곳에 검색결과가 나타납니다' }}</pre>
     <hr>
+    <h2>과목 정보 검색</h2>
     <form method="post">
         <div class = "label-row">
             <label for = "search_subject">Which subject you want to search about?</label>
